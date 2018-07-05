@@ -1,0 +1,202 @@
+.ems-page {
+    &-member{
+        .ems-grid-message{
+            .ems-grid-row{
+                padding: 19px 0 !important;
+                > div{
+                    font-size: 13px;
+                    color: #4d4d4d;
+                }
+                .col-1{width:30px; text-align: center; padding: 0;}
+                .col-2{width:35%;}
+                .col-3{width:20%;}
+                .col-4{width:20%;}
+                .col-5{width:15%; text-align: right;}
+                .ems-grid-code a{margin-top: 0 !important;}
+            }
+        }
+    }
+}
+
+.ems-page-default{
+    &-message-detail{
+        .ems-message-type, .msgDtHeader, .msgDtContent{
+            li{
+                display: table;
+                width: 100%;
+                table-layout: fixed;
+                text-align: center;
+                > span{
+                    display: table-cell;
+                    vertical-align: middle;
+                    border: 1px solid #ddd;
+                    padding: 10px;
+                    &:first-child{
+                        border-right: 0;
+                    }
+                }
+                &:first-child{
+                    > span{border-bottom: 0; font-size: 16px; font-family:$bold; color: #231f20;}
+                }
+            }
+        }
+        .msgDtList{
+            margin-bottom: 30px;
+            &:before, &:after{
+                content:'';
+                font-size: 0;
+                width: 100%;
+                height: 0;
+                clear: both;
+                height: 0;
+                overflow: hidden;
+            }
+            .msgDtHeader, .msgDtContent{
+                ul{
+                    display: table;
+                    width: 100%;
+                    table-layout: fixed;
+                    text-align: center;
+                    li{
+                        text-align: center;
+                        display: table-cell;
+                        vertical-align: middle;
+                        border: 1px solid #ddd;
+                        &:first-child{border-right:0;}
+                        > span{
+                            border:none;
+                            display: block;
+                            &:first-child{
+                                font-size: 13px;
+                                color: #727272;
+                                font-family: $regular;
+                            }
+                        }
+                    }
+                }
+            }
+            .msgDtHeader{
+                ul{
+                    li{
+                        border-bottom: 0;
+                        > span:first-child{font-size: 16px; font-family:$bold; color: #231f20;}
+                    }
+                }
+            }
+        }
+        .tableTitleMesajGonder{
+            span{
+                font-size: 15px;
+                font-family: $bold;
+                padding: 30px 0;
+                display: block;
+            }
+        }
+        .tableMesajGonder_aciklama{
+            font-size: 13px;
+            color: #727272;
+            padding-bottom: 30px;
+        }
+        .btnMesajKonuYeniGonder{margin-right: 5%;}
+        .btnMesajKonuYeniGonder, .btnMesajCozuldu{
+            max-width: 250px;
+        }
+        .mesajGonder{
+            .tableMesajMetin{
+                > tbody{
+                    > tr{
+                        > th{
+                            display: block;
+                            width: 100%; 
+                            padding-bottom: 10px;
+                        }
+                        > td{
+                            display: block;
+                            width: 100%; 
+                        }
+                        &.tableMesaj_trlbfUYE_ACIKLAMA{
+                            font-size: 13px;
+                            color: #727272;
+                        }
+                    }
+                }
+            }
+            .pageMesajGonder_CaptchaImage1{
+                max-width: 250px;
+                > div{
+                    img, input{ margin-bottom: 10px;}
+                    > span{display: block; font-size: 13px; color: #727272;}
+                }
+            }
+            .pageMesajGonder_btnMesajGonder{
+                table{
+                    display: table !important;
+                    text-align: left;
+                    a.btnDefault {
+                        max-width: 250px;
+                        margin-top: 10px;
+                        background: #00579c;
+                        &:hover{
+                            background: #f05201;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $breakpointXSM){
+    .ems-page {
+        &-member{
+            .ems-grid-message{
+                .ems-grid-row{
+                    min-height: 100px;
+                    padding-left: 40px !important;
+                    padding-right: 20px !important;
+                    .col-1{
+                        padding:0;
+                        height: 20px;
+                        position: absolute;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        left: 0;
+                    }
+                    .col-2, .col-3, .col-4, .col-5{width:100%; padding:0; margin-top: 5px;}
+                    .col-5{
+                        text-align: left;
+                        .lnkMesajOku{
+                            display: inline-block;
+                            color: #231f20;
+                            font-size: 14px;
+                            margin-top: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .ems-page-default{
+        &-message-detail{
+            .btnMesajKonuYeniGonder{margin-right:0;}
+            .btnMesajKonuYeniGonder, .btnMesajCozuldu{
+                max-width: 100%;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+            .btnMesajCozuldu{margin-top: 20px;}
+            .mesajGonder{
+                .pageMesajGonder_CaptchaImage1{max-width: 100%;}
+                .pageMesajGonder_btnMesajGonder{
+                    table{
+                        a.btnDefault {
+                            max-width: 100%;
+                            padding-top: 20px;
+                            padding-bottom: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

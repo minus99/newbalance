@@ -1,0 +1,16 @@
+.ems-page-default{
+    &-member-order{
+        .order-filter{
+            &:empty{display:none;}
+            padding-bottom: 30px;
+            .sStylerMainWrp,
+            a.btnSipAra{ width:50%; display: inline-block; vertical-align:top;}
+            .sStylerMainWrp.sStylerWrp_select{
+                max-width:180px;
+                margin-right: 15px;
+                .sStylerWrp{line-height: 33px;height: 45px;}
+            }
+            a.btnSipAra{max-width:85px;}
+        }
+    }
+}

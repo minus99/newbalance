@@ -1,0 +1,706 @@
+/*/////////////////////////////////////////      BRAND PAGE      /////////////////////////////////////////*/
+
+.markaSayfaKapsayici {
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 10px auto;
+  }
+  
+  .markaSayfasi {
+    padding: 0 20px;
+    .col1 {
+      max-width: 130px !important;
+      float: left;
+      width: 100%;
+      display: none;
+    }
+    a {
+        color: $lGray;
+    }
+    a:hover {
+      color: #000000 !important;
+      background: $edGray;
+    }
+    .markaAlfabeBaslik span {
+      font-size: 36px;
+      text-align: center;
+      padding: 35px 0;
+      font-family: $bold;
+      display: block;
+    }
+    .col1 {
+      a {
+        font-size: 14px;
+        font-weight: bold;
+        color: #bbbbbb;
+        display: block;
+        padding: 0 10px 0 15px;
+        &.tumMarkalar {
+          padding: 15px 10px 15px 15px;
+          border-bottom: 1px solid #ededed;
+        }
+      }
+      .markaMenu {
+        a {
+          line-height: 30px;
+        }
+        padding: 15px 0;
+        li.select a {
+          color: #000;
+        }
+      }
+    }
+    .col2 {
+      /*margin-left: 130px !important;width: auto !important;*/
+      padding: 0 !important;
+      position: relative;
+      overflow: hidden;
+      float: none;
+      /*border-left:1px solid #ededed;*/
+      .markaAlfabe {
+        padding: 15px 0px;
+        margin-bottom: 20px;
+        width: 100%;
+        /*display: inline-block;*/
+        display: none;
+        ul {
+          display: table;
+          width: 100%;
+          table-layout: fixed;
+          li {
+            display: table-cell;
+            width: auto !important;
+            text-align: center;
+            a {
+              font-size: 18px;
+              color: $lGray;
+              display: inline-block;
+              padding: 12px 0 10px 0;
+              max-width: 40px;
+              width: 100%;
+              text-align: center;
+              border-radius: 3px;
+              &:hover {
+                  background: $fdYellow;
+                  color: $lDark;
+              }
+            }
+          }
+        }
+      }
+    }
+    .markaLogolar {
+      display: inline-block;
+      width: 100%;
+      ul {
+        margin: 0 0 0 -15px;
+        padding: 0;
+      }
+      li {
+        float: left;
+        width: 20%;
+        text-align: center;
+        padding: 0 0 0px 1.5%;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        position: relative;
+        overflow: hidden;
+        span {
+          width: 100%;
+          display: none;
+          padding: 10px 0;
+          background: #f5f5f5;
+          max-height: 35px;
+        }
+        a {
+          display: block;
+          border: 1px solid #ededed;
+          width: 100%;
+          img {
+            margin: 20px 0;
+            height: 60px;
+          }
+        }
+      }
+      &.selected li {
+        display: none;
+        &.selected {
+          display: block;
+        }
+      }
+    }
+    .col2 .markaAlfabe ul li.selected a {
+      background: #eee;
+    }
+    .markaYazi {
+        margin: 30px 0;
+       span {
+            font-size: 20px;
+            font-family: $medium;
+            i {
+                font-size: 25px;
+                position: relative;
+                top: 3px;
+            }
+       }
+       p {
+            line-height: 20px;
+       }
+    }
+  }
+  
+  /**/
+  
+  @media screen and (min-width: 500px) {
+    .markaSayfasi .col2 .markaAlfabe ul {
+      transition: none !important;
+      transform: none !important;
+    }
+  }
+  
+  /**/
+  
+  /* */
+  
+  .markaLinkKapsayici {
+    width: 100%;
+    padding: 45px 0;
+    .markaLink {
+      max-width: 1100px;
+      width: 100%;
+      margin: 0 auto;
+      width: 100%;
+      padding-bottom: 30px;
+      > ul {
+        display: inline-block;
+        width: 100%;
+      }
+      li.kolon {
+        float: left;
+        width: 25%;
+        padding: 0 8% 0 8%;
+        border-right: 1px solid #ddd;
+        &:last-child {
+          border: 0;
+          padding-right: 0;
+        }
+        h1 {
+          font-family: 'MavenProBold';
+          font-size: 15px;
+          color: #6d6d6d;
+          margin-bottom: 35px;
+          letter-spacing: -1px;
+          height: 20px;
+        }
+        a {
+          font-size: 14px;
+          color: #6d6d6d;
+          line-height: 20px;
+          &:hover {
+            color: #e14616;
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: $breakpointXSM) {
+    .markaSayfasi {
+        padding: 0;
+        .markaLogolar {
+            li {
+                width:33.333%;
+            }
+        }
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    /*/////////////////////////////////////////      BRAND PAGE      /////////////////////////////////////////*/
+    .markaSayfasi {
+      .col1 {
+        max-width: none;
+      }
+      .col2 {
+        width: 100%;
+        display: inline-block;
+        .markaAlfabe {
+          border: 0;
+          padding: 0;
+          ul li {
+            /*padding: 0 7px;*/
+            a {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+      .col1 a.tumMarkalar {
+        font-size: 18px;
+      }
+      .col2 {
+        margin-left: auto;
+        overflow: visible;
+      }
+      .markaAlfabeBaslik span {
+        font-size: 30px;
+        padding: 15px 0;
+      }
+      .markaLogolar {
+        padding: 0 !important;
+        ul {
+          margin: 0;
+        }
+        li {
+          width: 100%;
+          padding: 0;
+        }
+      }
+      .markaMenu {
+        width: 100%;
+        padding: 0 !important;
+        border-bottom: 1px solid #ededed;
+        display: inline-block;
+        ul li {
+          width: 33.333%;
+          float: left;
+          text-align: center;
+          border-right: 1px solid #ededed;
+          &:last-child {
+            border: 0;
+          }
+          a {
+            padding: 15px 0;
+            font-size: 18px;
+          }
+        }
+      }
+      .markaLogolar {
+        padding: 0 20px;
+        margin: 0;
+      }
+    }
+  }
+
+  /* Parallax */
+
+  .parallax{
+    overflow: hidden;
+    position: relative;
+    height: 380px;
+    /*
+    width: 100%;
+    max-width:1140px;
+    max-width:1600px;
+    */
+    
+    margin:0 8px 40px 8px;
+    background:#f8f8f8;
+    /*display: none;*/ 
+    .mobiImg {
+      display: none;
+    }
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+    ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+        box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+    }
+    ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        background: rgba(253,222,0,0.9);
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+        box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    }
+    ::-webkit-scrollbar-thumb:window-inactive {
+        background: rgba(253,222,0,1); 
+    }
+  }
+
+ .parallax .parallax-title {
+    position:absolute; 
+    left:50px; 
+    bottom:200px; 
+    font-size:35px; 
+    max-width: 250px; 
+    font-family: $bold; 
+    font-weight:normal; 
+    margin: 0; 
+    z-index:9;
+      &:before {
+        content: '';
+        width: 50px;
+        margin-bottom: 5px;
+        border-bottom:4px solid #fdde00;
+        display: block;
+    }
+  }
+ .parallax .parallax-text {
+  position: absolute;
+  left: 50px;
+  right: 0;
+  top: 180px;
+  font-size: 15px;
+  max-width: 250px;
+  font-weight: normal;
+  z-index: 9;
+  max-height: 80px;
+  height: 100%;
+  overflow-x: hidden;
+  padding: 0 10px 0 0; 
+  }
+ .parallax .parallax-link {
+    display: none;
+    background: $fdYellow;
+    color: $lDark;
+    font-family: $bold;
+    letter-spacing: 1px;
+  }
+  
+  #parallax-wrap {
+    height: 100%;
+    width: 100%;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+  .parallax-layer {
+      position: absolute;
+  }
+ .parallax .bg1 {
+    width: 100%;
+    max-width: 270px;
+    height: 264px;
+    right: 150px;
+    top: 70px;
+    z-index: 3;
+    @include setTransform(translateZ(0px));
+    @include transition(all 0s);
+  }
+ .parallax .bg2 {
+      width: 350px;
+      height: 350px;
+      right: 100px;
+      top: 20px;
+      font-size: 340px;
+      z-index: 1;
+      @include setTransform(translateZ(-50px));
+      @include transition(all 0.2s);
+      animation-name: color_change;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    &:before {
+      color: inherit;
+    }
+  }
+  
+  @-webkit-keyframes color_change {
+    from { color: #FF8900; }
+    to { color: $fdYellow; }
+  }
+  @-moz-keyframes color_change {
+    from { color: #FF8900; }
+    to { color: $fdYellow; }
+  }
+  @-ms-keyframes color_change {
+    from { color: #FF8900; }
+    to { color: $fdYellow; }
+  }
+  @-o-keyframes color_change {
+    from { color: #FF8900; }
+    to { color: $fdYellow; }
+  }
+  @keyframes color_change {
+    from { color: #FF8900; }
+    to { color: $fdYellow; }
+  }
+  
+ .parallax .bg3 {
+    width: 1140px; 
+    height: 380px;
+    right: 0;
+    background:url(#{$baseHref + "/UPLOAD/BANNERS/listBanner/parallax.png"}) no-repeat 0 0;
+    @include setTransform(translateZ(0px));
+    @include transition(all 0.2s);
+  }
+
+  /*Paralax alternate*/
+  .parallax-alternate{
+    overflow: hidden;
+    position: relative;
+    height: 400px;
+    width: 100%;
+    /*max-width:1140px;*/
+    max-width:1200px;
+    margin:-25px auto 0px auto;
+    background-size: 760px 550px !important;
+    .mobiImg {
+      display: none;
+    }
+    > a{
+      display: block;
+      width: 100%;
+      height: 100%; 
+    }
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+    ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+        box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+    }
+    ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        background: rgba(253,222,0,0.9);
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+        box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    }
+    ::-webkit-scrollbar-thumb:window-inactive {
+        background: rgba(253,222,0,1); 
+    }
+  }
+  
+  .parallax-alternate #parallax-wrap {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 475px;
+    height: 340px;
+    z-index: 1;
+  }
+
+  .parallax-alternate .parallax-title {
+    position:absolute; 
+    left:0; 
+    right: 0;
+    top: 50px; 
+    font-size:30px; 
+    max-width: 90%; 
+    font-family: $bold; 
+    font-weight:normal; 
+    margin: 0 auto; 
+    text-align: center;
+    z-index:2;
+    max-height: 68px;
+    overflow: hidden;
+    line-height: 33px;
+  }
+
+  .parallax-alternate .parallax-text {
+    position:absolute; 
+    left:30px; 
+    top:120px; 
+    font-size:15px; 
+    max-width: 360px; 
+    font-weight:normal; 
+    z-index:2;
+    max-height: 49px;
+    height: 100%;
+    overflow-x: hidden;
+    max-width: 415px;
+    padding: 0 10px 0 0;
+    margin: 0;
+    text-align: center;
+  }
+  .parallax-alternate .parallax-link{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 225px;
+    margin: 0 auto;
+    font-family: $bold;
+    background: #fdde00;
+    text-align: center;
+    font-size: 15px;
+    padding: 12px 5px; 
+  }
+  .parallax-alternate .bg1 {
+    width: 100%;
+    max-width: 370px;
+    height: 120px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    bottom: 70px;
+    z-index: 3;
+    @include setTransform(translateZ(0px));
+    @include transition(all 0s);
+  }
+
+  .parallax-alternate .bg2 {
+      width: 45px;
+      height: 45px;
+      right: 0;
+      left: 0;
+      top: -35px;
+      font-size: 50px;
+      z-index: 1;
+      margin: 0 auto;
+      @include setTransform(translateZ(0));
+      @include transition(all 0.2s);
+      animation-name: color_change;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      &:before {
+        color: inherit;
+      }
+      &:after {
+        content: '';
+        width: 45px;
+        margin-top: 15px;
+        border-bottom:4px solid #fdde00;
+        display: block;
+    }
+  }
+
+  .parallax-alternate .bg3 {
+    width: 475px;
+    height: 340px;
+    right: 0;
+    background:url(#{$baseHref + "/UPLOAD/BANNERS/listBanner/parallax.png"}) no-repeat 0 0 #f5f5f5;
+    @include setTransform(translateZ(0px));
+    @include transition(all 0.2s);
+  }
+  .parallax-alternate .bg4 {
+    width: 760px;
+    height: 340px;
+    left: 0;
+    @include setTransform(translateZ(-50px));
+    @include transition(all 0.2s);
+  }
+
+  @media only screen and (max-width: $breakpointXSM) {
+
+   .parallax {
+      height: auto;
+      overflow: inherit;
+      background: none;
+      margin-left: 0;
+      margin-right: 0;
+      #parallax-wrap {      
+        -webkit-transform-style: inherit !important;
+        transform-style: inherit !important;
+        transform: none !important;
+      }
+      #parallax-wrap {
+        overflow: hidden;
+        background:#f8f8f8;
+      }
+      .mobiImg {
+        display: inline-block;
+        height: 300px;
+      }
+      .parallax-content {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        margin-top: -50px;
+        position: relative;
+        .parallax-title {
+          position: static;
+          max-width: none;
+          font-size: 20px;
+          margin-bottom:25px;
+          padding: 0 40px;
+          &:before {
+            width:30px;
+            margin: 0 auto;
+            content: "\e90c";
+            color: #fcde00;
+            font-family: 'icomoon';
+            font-size: 30px;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+          }
+        }
+        .parallax-text {
+          position: static;
+          max-width: none;
+          display: none;
+        }
+        .parallax-link {
+          display: inline-block; 
+          min-width: 220px;
+          padding: 17px 10px;
+        }
+      }
+      .bg1 {right: 0; left: 0; top: 30px; margin: 0 auto; -webkit-transform:none; -webkit-transition: none; transform:none; transition: none; max-width: 200px; height: 200px;}
+      .bg2 {display: none; -webkit-transform:none; -webkit-transition: none; transform:none; transition: none;}
+      .bg3 {height: 320px; -webkit-transform:none; -webkit-transition: none; transform:none; transition: none;}
+    }
+
+    /* Parallax Alternatif */  
+
+    .parallax-alternate {
+      height: auto;
+      overflow: inherit;
+      background: none;
+      margin: 0 auto 40px auto;
+      .parallax-wrap2 {display: none;}
+      #parallax-wrap {      
+        -webkit-transform-style: inherit !important;
+        transform-style: inherit !important;
+        transform: none !important;
+        width: 100%;
+        position: relative;
+        height: auto;
+        top: 0;
+      }
+      .mobiImg {
+        display: inline-block;
+        height: 320px;
+      }
+      .parallax-content {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        margin-top: -50px;
+        position: relative;
+        .parallax-title {
+          position: static;
+          max-width: none;
+          font-size: 20px;
+          margin-bottom: 25px;
+          padding: 0 40px;
+          max-height: none;
+          &:before {
+            width:30px;
+            margin: 0 auto;
+            content: "\e90c";
+            color: #fcde00;
+            font-family: 'icomoon';
+            font-size: 30px;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            border-bottom: 4px solid #fdde00;
+            display: block;
+          }
+        }
+        .parallax-link {
+          display: inline-block;
+          min-width: 220px;
+          padding: 17px 10px;
+          position: static;
+        }
+        .parallax-text {
+          display: none;
+        }
+      }
+      .bg1 {max-width: 370px; height: 200px; right: 0; left: 0; top: 30px; bottom: auto; margin: 0 auto; -webkit-transform:none; -webkit-transition: none; transform:none; transition: none;}
+      .bg2 {display:none; -webkit-transform:none; -webkit-transition: none; transform:none; transition: none;}
+      .bg3 {height: 320px; width:100%; -webkit-transform:none; -webkit-transition: none; transform:none; transition: none;}
+      .bg4 {display: none;}
+    }
+
+
+  }

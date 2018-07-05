@@ -1,0 +1,84 @@
+a.btnDefault, .ems-col.ems-col-link a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 17px 15px 17px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #fff;
+    background: $btnColor;
+    text-align: center;
+    font-weight: normal;
+    width: 100%;
+    line-height: 1;
+    font-family: $bold;
+    @include transition(all 0.2s ease);
+    span {font-size: 15px; letter-spacing: .9px; }
+    &:hover {
+        /*background: $btnAlternateColor;*/
+        background:#D4500D;
+    }
+    @at-root {
+        &-text, a.btnAdresListeGuncelle, a.btnAdresListeSil, a.btnSatisSozlesmeOnizle, a.btnOnBilgilendirmeFormOnizle, a.btnHediyeCekiKullan, a.btnSepeteAtFavori, a.btnStokHaberciFavori, a.btnFavoriListeSil, a.btnTakipListeFiySil, a.btnTakipListeStokSil, a.btnAdresIptal, a.btnIadeDetay, a.btnYorumGonderEvet, a.btnYorumGonderHayir {
+            background: none;
+            padding: 0;
+            font-size: inherit;
+            color: inherit;
+            &:hover {
+                background: inherit;
+            }
+        }
+        &-full, .pageLogin_btnFacebookLogin > table, a.btnFacebookLogin, a.btnYeniUyeKaydet, a.btnLogin, a.btnUyeBilgi, a.btnSifreGuncelle, a.btnIade, a.btnAdresKaydet {
+            width: 100%;
+        }
+        .urunDetay_btnSepeteAt > table, .urunListe_favoriEkle > table, .urunDetay_btnStokHaberci > table, .ems-cart-coupon > table, .pageLogin_btnFacebookLoginKutu > table, .pageLogin_btnFacebookLogin > table, .pageLogin_btnUyeSifreGonder > table {
+            display: table !important;
+            width: 100%;
+        }
+        a.btnFacebookLogin, a.btnFacebookLoginKutu {
+            background: $fbBtnColor;
+            span {
+                color: #fff;
+                .icon-ico_facebook{
+                    float: left;
+                }
+            }
+            &:hover {
+                background: $fbBtnColor;
+            }
+        }
+    }
+    &.btnDefaultBlack{
+        background: #000;
+        max-width: 225px;
+        margin: 0 auto;
+        width: 100%;
+        display: block;
+    }
+    &.btnDefaultAlternate{
+        background: $btnAlternateColor;
+        &:hover {
+            background: $btnColor;
+        }
+    }
+}
+
+.link-btn{
+    display: inline-block;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: $bold;
+    font-size: 15px;
+    > span, i{
+        display: inline-block;
+        vertical-align: middle;
+    }
+    i{
+        position: relative;
+        top: -2px;
+        margin-left: 10px;
+        &:before{
+            color: #fff;
+            font-size: 11px;
+        }
+    }
+}

@@ -1,0 +1,192 @@
+.ems-page {
+    &-member{
+        .ems-grid-default {
+            border-top: 3px solid #ededed;
+            border-bottom: 3px solid #ededed;
+            .ems-grid-header {
+                display: none;
+            }
+            .ems-grid-row {
+                padding: 30px 0;
+                border-bottom: 1px solid $edGray;
+                display: table;
+                table-layout: fixed;
+                width: 100%;
+                > div {
+                    display: table-cell;
+                    vertical-align: middle;
+                }
+                .ems-grid-img {
+                    width: 72px;                    
+                    border: 1px solid $edGray;
+                    text-align: center;
+                    a {display: inline-block;}
+                    img {
+                        max-height: 72px;
+                    }
+                }
+                .ems-grid-name {
+                    padding: 0 20px;
+                    width: 45%;
+                    span {
+                        font-size: 13px;
+                        font-family: $regular;
+                    }
+                    a {
+                        span {
+                            &.prdItem {
+                                font-family: $bold;
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+                .ems-grid-code {
+                    a {
+                        font-size: 13px;
+                        font-family: $regular;
+                        color: $lGray;
+                        margin-top: 5px;
+                        display: block;
+                    }
+                }
+                .ems-grid-piece {
+                    width: 25%;
+                    text-align: center;
+                    input {
+                        width: 100% !important;
+                        max-width: 65px;
+                        border: 1px solid $lDark;
+                        text-align: center;
+                        position: relative;
+                        top: -3px;
+                        height: 30px;
+                    }
+                    a {
+                        border: 1px solid $inputborder;
+                        display: inline-block;
+                        padding: 7px;
+                        color: $inputborder;
+                        height: 30px;
+                        &:hover {
+                            background: $fdYellow;
+                            color: $lDark;
+                            border: 1px solid $fdYellow;
+                        }
+                    }
+                }
+                .ems-grid-price-total {
+                    width: 20%;
+                    text-align:center;
+                    font {
+                        text-align: center;
+                        &:before {
+                            font-family: $tl;
+                            content: 't';
+                            font-size: 15px;
+                            display: inline-block;
+                        }
+                        &.brutFiyat {
+                            text-decoration: line-through;
+                        }
+                    }
+                }
+                .ems-price{
+                    color: #221e1f;
+                    &:before{
+                        float: left;
+                        font-family:$tl;
+                        content:'t';
+                        font-size: 15px;
+                        color: #221e1f;
+                        padding-right: 3px;
+                    }
+                }
+                .ems-grid-delete {
+                    width: 10%;
+                    text-align: right;
+                    padding-right: 10px;
+                }
+                &:last-child {
+                    border: 0;
+                }
+                .kdvDahil{display: none;}
+            }
+        }
+        .same-address{display: none;}
+        .add-new-address {
+            .btnAdresEkle {
+                background: $edGray;
+                font-family: $regular;
+                padding: 10px 20px;
+                margin: 20px 0;
+                width: auto;
+                span {
+                    letter-spacing: 0;
+                    font-size: 13px;
+                    color: $darkBlack;
+                }
+                &:hover {
+                    background: $lDark;
+                    span {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        a.btnTakipListeStokTumSil, a.btnFavoriListeTumSil{
+            background: $edGray;
+            font-family: $regular;
+            padding: 10px 20px;
+            margin: 20px 0 0 0;
+            width: auto;
+            span {
+                letter-spacing: 0;
+                font-size: 13px;
+                color: $darkBlack;
+            }
+            &:hover {
+                background: $lDark;
+                span {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $breakpointXSM){
+    .ems-page {
+        &-member{
+            .ems-grid-default {
+                border-top: none;
+                border-bottom: none;
+                .ems-grid-row {
+                    position: relative;
+                    .ems-grid-img {
+                        width: 100px;                    
+                        img {
+                            max-height: 100px;
+                        }
+                    }
+                    .ems-name, .ems-price{
+                        font-size: 15px;
+                        font-family: $bold;
+                        margin-top: 10px;
+                    }
+                    > div {
+                        padding-left: 10px;
+                        padding-right: 10px;
+                        flex: inherit;
+                        max-width: inherit;
+                        display: inline-block;
+                        vertical-align: top;
+                    }
+                    &:last-child {
+                        border-bottom:1px solid #ededed;
+                    }
+                }
+            }
+        }
+    }
+}

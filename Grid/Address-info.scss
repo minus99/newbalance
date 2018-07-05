@@ -1,0 +1,251 @@
+.ems-page {
+    &-member{
+        .ems-grid-address{
+            &:empty{display:none;}
+            .ems-grid-row {
+                .col-1{width:20%;}
+                .col-2{width:65%;}
+                .col-3{display:none;}
+                .col-4{
+                    width:10%;
+                    text-align: right;
+                    padding-right: 20px;
+                    a {
+                        position: relative;
+                        clear: both;
+                        &::after {
+                        content: '';
+                        position: absolute;
+                        opacity: 0;
+                        right: 20px;
+                        top: -3px;
+                        transition: all .1s;
+                    }
+                    &:hover:after{
+                            content: '';
+                            background: #333;
+                            background: rgba(0,0,0,.5);
+                            border-radius: 5px;
+                            color: #fff;
+                            right: 30px;
+                            padding: 5px 15px;
+                            position: absolute;
+                            z-index: 98;
+                            font-family: $regular;
+                            font-size: 13px;
+                            opacity: 1;
+                        }
+                    }
+                }
+                .ems-address-name {
+                    font-family: $bold;
+                    .adresTip1, .adresTip2 {
+                        font-family: $regular;
+                        display: block;
+                        color: $lGray;
+                        font-size: 13px;
+                        margin-top:5px;
+                    }
+                }
+                .ems-address {
+                    font-size: 13px;
+                    color: $lGray;
+                }
+                .btnAdresListeGuncelle {
+                    float: left;
+                    display: inline-block;
+                    font-size: 0;
+                    width: auto;
+                    &:before{
+                        content: '\e907';
+                        font-family: 'icomoon';
+                        font-size: 13px;
+                        color: #000;
+                    }
+                    &:after {
+                        content:'Güncelle' !important;
+                    }
+                    i.icon-ico_edit.ico-show{
+                        &:before{
+                            content: '';
+                            position: absolute;
+                            opacity: 0;
+                            right: 20px;
+                            top: -3px;
+                            transition: all .1s;
+                        }
+                    }
+                    &:hover{
+                        i.icon-ico_edit.ico-show{
+                            &:before{
+                                content: 'GÖRÜNTÜLE';
+                                background: #333;
+                                background: rgba(0, 0, 0, 0.5);
+                                border-radius: 5px;
+                                color: #fff;
+                                right: 30px;
+                                padding: 5px 15px;
+                                position: absolute;
+                                z-index: 98;
+                                font-family: "regular";
+                                font-size: 13px;
+                                opacity: 1;
+                            }
+                        }
+                    }
+                    &.after-hide{
+                        &:after{
+                            display: none;
+                        }
+                    }
+                }
+                .btnAdresListeSil {
+                    display: inline-block;
+                    width: auto;
+                    i:before {
+                        font-size: 13px;
+                        color: #000;
+                    }
+                    &:after {
+                        content:'Sil' !important;
+                    }
+                }
+            }
+        }
+        .ems-page-new-address{
+            padding: 0 !important;
+        }
+    }
+}
+
+.ems-page-new-address{
+    width: 100%;
+    padding: 0;
+    .page-top-title{
+        text-align: left;
+        padding-bottom: 30px;
+        a.btnDefault{
+            display: inline-block;
+            width: auto;
+            span{
+                &:before{
+                    font-family:'icomoon';
+                    content:'\e901';
+                    color: #221e1f;
+                    font-size: 12px;
+                    display: inline-block;
+                    margin-right: 10px;
+                    position: relative;
+                    top: -1px;
+                }
+            }
+        }
+        span[id$="lbfUYA_ADRESEKLE"]{display: none; padding-top: 30px;}
+    }
+    .page-top-desc{display: none;}
+    .ems-form{
+        &-inner{
+            .ems-field{
+                &-double{
+                    width: 50%;
+                    display: inline-block;
+                    vertical-align: top;
+                }
+                &.tcCheck{
+                    display: none;
+                }
+                &.adresTip{
+                    .ems-form-obj{
+                        a{
+                            padding:10px 5px;
+                            display: inline-block;
+                            color: #1a1718;
+                            &.emos_selected{
+                                color: #00579c;
+                            }
+                        }
+                    }
+                }
+                .ems-form-obj{
+                    max-width: 250px;
+                    textarea{
+                        height: 60px;
+                    }
+                }
+            }
+        }
+    }
+    .kurumsalUyari {
+        font-size:13px;
+        line-height: 16px;
+        color: $lGray;
+        i {
+            margin-right: 5px;
+        } 
+    }
+    &.lnkAdrTip_1 {
+        .kurumsalUyari {
+            display: block;
+        }
+    }
+    &.lnkAdrTip_2 {
+        .kurumsalUyari {
+            display: none;
+        }
+    }
+}
+
+
+@media screen and (max-width: $breakpointXSM){
+    .ems-page {
+        &-member{
+            .ems-grid-address {
+                .ems-grid-row {
+                    .col-1, .col-2{width:100%; padding-right: 50px;}
+                    .col-2{line-height: 18px;}
+                    .col-4{
+                        position: absolute;
+                        top: 50%;
+                        right: 0;
+                        @include setTransform(translateY(-50%));
+                        padding-right: 10px;
+                        width:5%;
+                        text-align: center;
+                        a {float: right;}
+                        .btnAdresListeGuncelle{margin-bottom: 20px;}
+                    }
+                    .ems-address-name {margin-bottom: 10px;}
+                }
+            }
+        }
+    }
+    .ems-page-new-address{
+        margin: 0 !important;
+        .page-top-title{
+            display: block;
+            margin-top: 40px;
+        }
+        .page-top-desc{display: none;}
+        .ems-form{
+            &-inner{
+                .ems-field{
+                    &-double{width: 100%;}
+                    .ems-form-obj{
+                        max-width: 100%;
+                    }
+                    &.button{
+                        .ems-form-obj{
+                            margin-left: 0;
+                            a.btnAdresKaydet{padding-top: 20px; padding-bottom: 20px;}
+                        }
+                    }
+                }
+            }
+        }
+        .kurumsalUyari {
+            .ems-form-obj {
+                margin-left: 0;
+            }
+        }
+    }
+}

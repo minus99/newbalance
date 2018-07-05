@@ -1,0 +1,65 @@
+.mod-lang {
+    position: relative;
+    display: none !important;
+    &-header, &-footer{
+        display: none;
+    }
+    .dropdown{
+        > span{
+            cursor: pointer;
+            background: none;
+            letter-spacing: .9px;
+            font-family: $bold;
+            color: $lDark;
+            font-size: 13px;
+            border: none;
+            padding: 8px 5px 8px 5px;
+            line-height: inherit;
+            height: inherit;
+            display: inline-block;
+            b, img{
+                display: inline-block;
+                vertical-align: middle;
+            }
+            img{ margin-right: 15px; }
+            i.icon-ico_arrow-dropdown{
+                display: none;
+            }
+        }
+        &.opened{
+            .sub{
+                display: block;
+            }
+        }
+    }
+    .sub{
+        position: absolute;
+        top: 30px;
+        left: 5px;
+        z-index: 10;
+        background: $rgbBg;
+        width: 110px;
+        padding: 10px 10px;
+        li{
+            a{
+                display: block;
+                padding: 10px 10px;
+                border-top: 1px solid #979797;
+                span{
+                    display: block;
+                    img{display: inline-block; margin-right: 20px; }
+                    b{
+                        display: inline-block !important;
+                        color: #fff;
+                        font-family:$bold;
+                        font-size: 13px;
+                        font-weight: normal;
+                    }
+                }
+            }
+            &:first-child{
+                a{ border: none; }
+            }
+        }
+    }    
+}

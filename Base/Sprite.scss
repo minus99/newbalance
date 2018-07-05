@@ -1,0 +1,139 @@
+@include fontFace('icomoon', '/styles/fonts/icon/icomoon', normal, normal);
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ico_vepa:before {
+  content: "\e923";
+}
+.icon-ico_arrow-left-light:before {
+  content: "\e920";
+}
+.icon-ico_arrow-right-light:before {
+  content: "\e921";
+}
+.icon-ico_cart-empty:before {
+  content: "\e922";
+}
+.icon-ico_arrow-dropdown:before {
+  content: "\e900";
+}
+.icon-ico_arrow-left:before {
+  content: "\e901";
+}
+.icon-ico_arrow-right:before {
+  content: "\e902";
+}
+.icon-ico_arrow-top-dropdown:before {
+  content: "\e903";
+}
+.icon-ico_cargo:before {
+  content: "\e904";
+}
+.icon-ico_cart-mobile:before {
+  content: "\e905";
+}
+.icon-ico_credi-cart:before {
+  content: "\e906";
+}
+.icon-ico_edit:before {
+  content: "\e907";
+}
+.icon-ico_facebook:before {
+  content: "\e908";
+}
+.icon-ico_hamburger:before {
+  content: "\e909";
+}
+.icon-ico_hearth:before {
+  content: "\e90a";
+}
+.icon-ico_instagram:before {
+  content: "\e90b";
+}
+.icon-ico_lightning:before {
+  content: "\e90c";
+  color: #fcde00;
+}
+.icon-ico_member:before {
+  content: "\e90d";
+}
+.icon-ico_member-mobile:before {
+  content: "\e90e";
+}
+.icon-ico_mini-cart:before {
+  content: "\e90f";
+}
+.icon-ico_minus:before {
+  content: "\e910";
+}
+.icon-ico_original:before {
+  content: "\e911";
+}
+.icon-ico_pinterest:before {
+  content: "\e912";
+}
+.icon-ico_player:before {
+  content: "\e913";
+}
+.icon-ico_plus:before {
+  content: "\e914";
+}
+.icon-ico_rectangle:before {
+  content: "\e915";
+}
+.icon-ico_remove:before {
+  content: "\e916";
+}
+.icon-ico_return:before {
+  content: "\e917";
+}
+.icon-ico_search:before {
+  content: "\e918";
+}
+.icon-ico_share:before {
+  content: "\e919";
+}
+.icon-ico_star:before {
+  content: "\e91a";
+}
+.icon-ico_twitter:before {
+  content: "\e91b";
+}
+.icon-ico_update:before {
+  content: "\e91c";
+}
+.icon-ico_whatsapp:before {
+  content: "\e91d";
+}
+.icon-ico_women:before {
+  content: "\e91e";
+}
+.icon-ico_youtube:before {
+  content: "\e91f";
+}
+
+.ems-icon {
+	position: relative;
+  display:inline-block; 
+  vertical-align:middle; 
+  text-indent:-999em; 
+  transition: all 0.2s ease;
+	font-size: 0px;
+ 	@at-root {
+      .ems-icon { background:url(#{$baseHref + "/images/frontend/sprite.png"}) no-repeat; }
+      .ems-icon-cargo-car { background-position: 0 0; width:28px; height:17px; }
+      .ems-icon-cargo-safe { background-position: -28px 0; width:22px; height:31px; }
+      .ems-icon-cargo-check { background-position: -50px 0; width:28px; height:29px; }
+      .ems-icon-key-sale { background-position: -78px 0; width:44px; height:26px; }
+  }
+}

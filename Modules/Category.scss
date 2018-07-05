@@ -1,0 +1,284 @@
+.kutuKategori{
+    .kutuHeaderKategori{
+        > span{
+            a{
+                color: $lDark;
+                background: none;
+                padding: 7px 10px 7px 0;
+                text-align: left;
+                position: relative;
+                span:first-child{
+                    display: block;
+                    letter-spacing: inherit;
+                    i{ display: none; }
+                    &:before{
+                        content:'\e910';
+                        font-family:'icomoon';
+                        font-size: 8px;
+                        color: #231f20;
+                        position: absolute;
+                        top: 50%;
+                        right: 0;
+                        margin-top: -4px;
+                    }
+                }
+            }
+        }
+    }
+    &.kapali{
+        .kutuHeaderKategori{
+            > span{
+                a{
+                    span:first-child{
+                        &:before{ content:'\e914'; }
+                    }
+                }
+            }
+        }
+    }
+    ul.menuKategori{
+        padding: 10px 0 10px 0;
+        li{
+            position:relative;
+            b{
+                display: none;
+                font-weight: normal;
+                width: 10px;
+                height: 10px;
+                margin-right: 5px;
+                cursor: pointer;
+                &:before{
+                    font-family: 'icomoon';
+                    content: "\e914";
+                    font-size: 8px;
+                    color: $fdYellow;
+                    color: $fdYellow;
+                    line-height: 10px;
+                }
+            }
+            a{
+                display: inline-block;
+                padding: 5px 5px 5px 5px;
+                position: relative;
+                font-size: 13px;
+                width: 80%;
+                &:before{
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    left: 0;
+                    margin-top: -1px;
+                    font-weight: normal;
+                    width: 17px;
+                    height: 2px;
+                    background: $fdYellow;
+                    display: none;
+                }
+                &.active{
+                    font-family: $bold;
+                }
+                &:hover{ text-decoration: underline; }
+            }
+            &.sub{ display: block; }
+        }
+        > li{ 
+            &.sub-items{
+                > b{
+                    display: inline-block;
+                }
+                &.opened{
+                    > b{
+                        &:before{
+                            content: "\e910";
+                        }
+                    }   
+                }
+            }
+             > ul{
+                 padding: 10px 0 15px 15px;
+                 > li{
+                    &.sub-items{
+                        > b{
+                            display: inline-block;
+                        }
+                        &.opened{
+                            > b{
+                                &:before{
+                                    content: "\e910";
+                                }
+                            }   
+                        }
+                    }
+                    > ul{
+                        display: none;
+                        padding-left: 15px;
+                        > li{
+                            > a{width: 100%;}
+                        }
+                    }
+                 }
+             }
+        }
+    }
+}
+
+.ems-page-list-new, .ems-page-list-discount{
+    .kutuKategori{
+        ul.menuKategori{
+            > li{
+                &.s1.sub-items{
+                    > ul{
+                        display: none;;
+                    }
+                }
+                &.s1.sub-items.opened{
+                    > ul{
+                        display: block;;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.kutuSolMenuTree{
+    .sStylerMainWrp.sStylerWrp_select, .kutuHeaderSolMenuTree{display:none;}
+    .kutuBodyDefault{
+        > ul{
+            > li{
+                b{display:none;}
+                > a{
+                    display: none;
+                }
+                > ul{
+                    display: table;
+                    width: 100%;
+                    table-layout: fixed;
+                    > li{
+                        display: table-cell;
+                        vertical-align: middle;
+                        text-align: center;
+                        border-width: 0 1px 1px 0;
+                        border-style: solid;
+                        border-color: #979797;
+                        overflow: hidden;
+                        position: relative;
+                        &:first-child{border-left-width: 1px;}
+                        a{
+                            display: block;
+                            letter-spacing: .8px;
+                            display: block;
+                            letter-spacing: .8px;
+                            padding: 17px 10px;
+                        }
+                        &:after{
+                            content:'';
+                            width: 100%;
+                            height:5px;
+                            position: absolute;
+                            left: 0;
+                            bottom: -5px;
+                            background: #ffe000;
+                            @include transition(all .1s);
+                        }
+                        &.act, &:hover{
+                            &:after{
+                                bottom: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $breakpointXSM){
+    .kutuKategori{
+        .kutuHeaderKategori{
+            > span{
+                a{
+                    padding: 28px 46px 27px 30px;
+                    span:first-child{
+                        &:before{
+                            right: 30px;
+                            font-size: 16px;
+                            margin-top: -8px;
+                        }
+                    }
+                    .mobile-element{
+                        &-filter-span-select{
+                            display: block;
+                            font-size: 18px;
+                            color: $darkBlack;
+                            font-family: $regular;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+        }
+        ul.menuKategori{
+            padding-top: 0;
+            padding-bottom: 0;
+            li b{display: none !important;}
+            li a{
+                width: 100%;
+                font-size: 17px;
+                padding: 25px 46px 26px 50px;
+                border-top: 1px solid #ededed;
+                &:before{
+                    top: 50%;
+                    margin-top: -10px;
+                    left: inherit;
+                    right: 30px;
+                    background: #fff;
+                    width: 16px;
+                    height: 16px;
+                    border-radius: 100%;
+                    border: 2px solid #ababab;
+                    display: inline-block;
+                }
+            }
+            > li{
+                > ul{
+                    padding: 0;
+                }
+                > a{
+                   font-size: 18px;
+                   padding: 25px 46px 26px 40px;
+                   &:before{
+                        background: $darkBlack;
+                        width: 16px;
+                        height: 2px;
+                        border-radius: 0;
+                        border: none;
+                        margin-top: -1px;
+                    }
+                }
+                > a.active{
+                    background: #f5f5f5;
+                    font-family: $regular;
+                    border: none;
+                }
+            }
+            > li > ul > li > ul{padding-left: 0;}
+        }
+    }
+    .kutuSolMenuTree{
+        .sStylerMainWrp.sStylerWrp_select{
+            display: block;
+            .sStylerWrp{
+                line-height: 43px;
+                height: 55px;  
+                background: #f8f8f8;
+                font-size: 18px;
+                font-family: $bold;
+                border: none;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }
+        .kutuBodyDefault{display:none;}
+    }
+}

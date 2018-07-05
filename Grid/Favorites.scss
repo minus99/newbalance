@@ -1,0 +1,75 @@
+.ems-page {
+    &-member{
+        .ems-grid-favorites{
+            .ems-grid-row{
+                padding: 19px 0 !important;
+                .col-1{width:100px;}
+                .col-2{width:40%;}
+                .col-3{width:22%;}
+                .col-4{width:22%;}
+                .col-5{width:6%;}
+                .ems-name{
+                    font-size: 13px;
+                    color: #4d4d4d;
+                }
+                a.btnFavoriListeSil{
+                    &:after {
+                        content: '';
+                        position: absolute;
+                        opacity: 0;
+                        right: 20px;
+                        top: -3px;
+                        transition: all .1s;
+                    }
+                    &:hover:after{
+                        content: '';
+                        background: #333;
+                        background: rgba(0,0,0,.5);
+                        border-radius: 5px;
+                        color: #fff;
+                        right: 30px;
+                        padding: 5px 15px;
+                        position: absolute;
+                        z-index: 98;
+                        font-family: $regular;
+                        font-size: 13px;
+                        opacity: 1;
+                    }
+                    &:after {
+                        content:'Sil' !important;
+                    }
+                }
+            } 
+        }
+    }
+}
+
+@media screen and (max-width: $breakpointXSM){
+    .ems-page {
+        &-member{
+            .ems-grid-favorites{
+                .ems-grid-row{
+                    min-height: 140px;
+                    padding-left: 110px !important;
+                    padding-right: 35px !important;
+                    .col-1{
+                        padding:0;
+                        height: 100px;
+                        position: absolute;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        left: 0;
+                    }
+                    .col-2, .col-3, .col-4{width:100%; padding:0;}
+                    .col-5{
+                        width: 12%;
+                        position: absolute;
+                        top: 20px;
+                        right: 0;
+                        z-index: 1;
+                    }
+                }
+            }
+        }
+    }
+}

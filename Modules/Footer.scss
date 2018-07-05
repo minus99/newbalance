@@ -1,0 +1,189 @@
+.site-footer{
+    background-color: $lDark;
+    &-cover{
+        background-image:url(#{$baseHref + "/UPLOAD//BANNERS/covers/footer-cover.jpg"});
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+        min-height: 510px;
+        position: relative;
+        padding: 40px 0 40px 0;
+        &:after{
+            content:'';
+            background-image: linear-gradient(to bottom, rgba(35, 31, 32, 0.1), #231f20);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 40px;
+        }
+    }
+    &-top{
+        width: 100%;
+        display: table;
+        max-width: 920px;
+        padding: 0 10px 0 10px;
+        margin: $marginAuto;
+        .ems-col {
+            display: inline-block;
+            vertical-align: top;
+            &-full{
+                display: block;
+                width: 100%;
+            }
+        }
+        .ems-col-1{
+            width: 55%;
+        }
+        .ems-col-2{
+            vertical-align: bottom;
+            width: 45%;
+        }
+    }
+    &-slogan{
+        text-align: center;
+        padding: 10px 0 70px 0;
+        i.icon-ico_lightning, i.icon-ico_lightning:before{
+            font-size: 55px;
+        }
+        span{
+            margin-top: 35px;
+            display: block;
+            color: #fff;
+            font-size: 25px;
+            font-family: $bold;
+            font-style: italic;
+            letter-spacing: 5px;
+        }
+    }
+    &-menu, &-social{
+        width: 100%;
+        display: table;
+    }
+    &-menu{
+        ul{
+            display: inline-block;
+            width: 50%;
+            vertical-align: top;
+            padding: 0 0 0 20px;
+            li{
+                > *{
+                    color: #fff;
+                    font-size: 15px;
+                    display: inline-block;
+                }
+                &.title{
+                    span{ font-family: $bold; margin-bottom: 25px; }
+                }
+                a{
+                    font-family: $regular;
+                    padding:5px 0;
+                    &:hover{ text-decoration: underline; }
+                }
+            }
+        }
+    }
+    &-social{
+        > ul{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 15px;
+            > li{
+                display: inline-block;
+                vertical-align: middle;
+                width: 20%;
+                text-align: center;
+                a{
+                    display: inline-block;
+                    padding: 5px 0;
+                    text-align: center;
+                    i{
+                        display: block;
+                        font-size: 23px;
+                        width: 23px;
+                        &:before{
+                            font-size: 23px;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &-content{ display: none; }
+    &-bottom{
+        background-color: $darkBlack;
+    }
+    &-dark-cover{
+        max-width: 980px;
+        width: 100%;
+        margin: $marginAuto;
+        padding: 65px 10px 75px 10px;
+        span{ font-size: 15px; font-family: $bold; color: #727272; display: block; padding-bottom: 10px; }
+        p{
+            font-size: 13px;
+            color: #727272;
+            margin: 15px 0 0 0;
+        }
+    }
+    &-copyright{
+        background-color: $lDark;
+        text-align: center;
+        padding: 40px 120px 40px 120px;
+        position: relative;
+        &:after{
+            content:''; 
+            background-image:url(#{$baseHref + "/images/frontend/footer-vepagroup-logo.png"});
+            position: absolute;
+            top: -23px;
+            right: 0;
+            width:120px;
+            height:118px;
+            z-index: 1;
+        }
+        > *{
+            font-family: $regular;
+            color: #fff;
+            font-size: 15px;
+        }
+        p{ margin:0 0; }
+    }   
+}
+
+@media screen and (max-width: $breakpointXSM){
+    .site-footer{
+        &-content, &-menu{
+             display: none;
+        }
+        &-menu{
+            padding-bottom: 40px;
+            ul{
+                padding-left: 0;
+                text-align: center;
+            }
+        }
+        &-slogan {
+            padding-bottom: 45px;
+        }
+        &-top{
+            .ems-col-1, .ems-col-2{ width: 100%; }
+        }
+        &-cover{
+            min-height: 280px;
+            padding-bottom: 65px;
+            &:after{ height: 65px; }
+        }
+        &-copyright{
+            padding: 20px 100px;
+            max-height: 96px;
+            min-height: 96px;
+            &:after{
+                top: 0;
+                width:96px;
+                height:96px;
+                background-size: 96px 96px;
+            }
+        }
+    }
+}

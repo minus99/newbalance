@@ -1,0 +1,21 @@
+.navigasyon {
+    > span{
+        a{
+            display: inline-block;
+            padding: 10px 20px 10px 0;
+            font-size: 14px;
+            &:before{
+                content:'';
+                display: inline-block;
+                vertical-align: middle;
+                background:url(#{$baseHref + "/images/frontend/seperator-icon.png"}) no-repeat;
+                margin-right: 20px;
+                width: 15px;
+                height: 8px;
+            }
+            &:first-child{
+                &:before{ display: none; }
+            }
+        }
+    }
+}

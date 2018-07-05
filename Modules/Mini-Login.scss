@@ -1,0 +1,281 @@
+.mod-mini-login{
+    &-header{
+        cursor: pointer;
+        background: $edGray;
+        font-family: $bold;
+        font-size: 13px;
+        letter-spacing: .9px;
+        padding: 8px 20px;
+        min-width: 125px;
+        text-align: center;
+        min-height: 30px;
+        @include transition(all 333ms ease);
+        > span[id$="lbhKUTU_HESABIM"]{
+            display: inline-block;
+            max-width: 130px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+    }
+    &-footer{ display: none; }
+    &-body{
+        .sub {
+            position: absolute;
+            top: 30px;
+            right: 125px;
+            z-index: 10;
+            background: $rgbBg;
+            width: 400px;
+            padding: 30px 30px;
+            @include animation(cart 333ms ease);
+            .ems-message{
+                margin-bottom: 20px;
+                &:empty{ display: none; }
+            }
+            .sub-title{
+                margin: 0;
+                font-weight: normal;
+                font-size: 13px;
+                letter-spacing: .9px;
+                color: #fff;
+                font-family: $bold;
+                padding-bottom: 20px;
+                text-align: center;
+                display: block;
+            }
+            .ems-form{
+                &-inner{
+                    .ems-field{
+                        .seperator span{
+                            font-size: 13px;
+                            color: #bebebe;
+                            font-family: $regular;
+                            display: block;
+                            padding: 20px 0 20px 0;
+                        }
+                        .ems-form-obj{
+                            input{
+                                background: transparent;
+                                color: #fff;
+                            }
+                        }
+                        #lnkSifremiUnuttum{
+                            padding: 0 0 0 5px;
+                            display: inline-block;
+                            margin-bottom: 20px;
+                            span{
+                                font-size: 13px;
+                                color: #bebebe;
+                                font-family: $regular;
+                            }
+                        }
+                        &-submit{
+                            a.btnKutuLogin, a.btnFacebookLoginKutu{
+                                max-width: 250px;
+                            }
+                            a.btnFacebookLoginKutu{margin-top: 25px;}
+                        }
+                        .ems-new-login{
+                            span[id$="lbflnkUyeOlmak"]{
+                                display:block;
+                                a.lnkUyeOlmak{
+                                    display: block;
+                                    max-width: 250px;
+                                    margin-left: auto;
+                                    margin-right: auto;
+                                    background: none;
+                                    padding: 13px 10px 13px 10px;
+                                    border:2px solid #f05201;
+                                    &:hover{
+                                        border-color: #D4500D;
+                                    }
+                                    span{
+                                        color: #fff;
+                                        font-family: $bold;
+                                        font-size: 15px;
+                                        letter-spacing: .9px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &.login{
+                width: 200px;
+                padding: 20px;
+            }
+            .ems-user-info{
+                display: none;
+            }
+            .ems-user-pages{
+                > div * {
+                    color: #fff;
+                    font-size: 15px;
+                }
+                > div {
+                    a{
+                        display: inline-block;
+                        padding:7px 10px;
+                        &.btnKutuLogout{
+                            padding: 15px 17px 15px 17px;
+                            margin-top: 20px;
+                        }
+                        &:hover{ text-decoration: underline; }
+                    }
+                }               
+            }
+        }
+    }
+}
+
+body.mini-login-ready{
+    .mod-mini-login{
+        &-header{
+            background: #2e2a2b; color: #fff;
+        }
+    }
+    .vailLogin{ opacity: .3; visibility: visible; }
+}
+
+body.ems-logoff.mini-login-ready{
+    .mod-mini-login{
+        &-body{
+            .sub.logoff{
+                display: block;
+            }
+        }
+    }
+}
+
+body.ems-login.mini-login-ready{
+    .mod-mini-login{
+        &-body{
+            .sub.login{
+                display: block;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $breakpointXSM){
+    .mod-mini-login{
+        &-header{ display: none; }
+        &-body{
+            .sub{
+                width: 100%;
+                height: 100%;
+                left: 0;
+                top: 0;
+                right: 0;
+                background: #fff;
+                padding: 0;
+                .sub-title{
+                    font-size: 20px;
+                    color: #fff;
+                    font-size: 20px;
+                    background: $darkBlack;
+                    padding-top: 20px;
+                    margin-bottom: 20px
+                }
+                .ems-form{
+                    &-inner{
+                        padding: 0 50px 30px 50px;
+                        .ems-field{
+                            .ems-form-label{
+                                float: none;
+                                min-width: 100%;
+                                color: $darkBlack;
+                                font-family: $bold;
+                                font-size: 17px;
+                            }
+                            .ems-form-obj{
+                                margin-left: 0;
+                                input{ height: 50px; line-height: 38px; color: $darkBlack; }
+                            }
+                            .seperator span{
+                                font-size: 17px;
+                                color: $darkBlack;
+                                font-family: $bold;
+                            }
+                            #lnkSifremiUnuttum span{
+                                color: $darkBlack;
+                                font-family: $bold;
+                                font-size: 17px;
+                            }
+                            .ems-new-login{
+                                span[id$="lbflnkUyeOlmak"]{
+                                    display:block;
+                                    a.lnkUyeOlmak{
+                                        span{
+                                            color: #1a1718;
+                                        }
+                                    }
+                                }
+                            }
+                            &-submit{
+                                a.btnKutuLogin, a.btnFacebookLoginKutu{
+                                    max-width: 100%;
+                                    padding-top: 18px;
+                                    padding-bottom: 17px;
+                                }
+                            }
+                        }
+                    }
+                }
+                &.login{
+                    width: 100%; padding: 0;
+                }
+                &.logoff{
+                    .ems-form-inner{ padding-left: 20px; padding-right: 20px;}
+                }
+                .ems-user-info{
+                    position: relative;
+                    display: block;
+                    font-size: 17px;
+                    font-family: bold;
+                    padding: 26px 50px;
+                    background: $darkBlack;
+                    color: #fff;
+                    .member-account{display: none;}
+                    .mobile-user-popup-close{
+                        cursor: pointer;
+                        position: absolute;
+                        left: 8px;
+                        width: 40px;
+                        text-align: center;
+                        padding: 5px;
+                        top: 21px;
+                        height: 30px;
+                    }
+                }
+                .ems-user-pages{
+                    padding-top: 10px;
+                    > div * {
+                        color: $darkBlack;
+                        font-size: 17px;
+                        font-family: $bold;
+                    }
+                    > div {
+                        padding: 0 40px;
+                        a{
+                            display: block;
+                            padding-top: 21px;
+                            padding-bottom: 21px;
+                            border-top: 1px solid #ededed;
+                            text-transform: uppercase;
+                            &.btnKutuLogout{
+                                margin-bottom: 20px;
+                            }
+                        }
+                        &:first-child{
+                            a{ border: none;  }
+                        }
+                    }               
+                }
+            }
+        }
+    }
+
+}

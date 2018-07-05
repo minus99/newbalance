@@ -1,0 +1,170 @@
+.widget{
+    display: none;
+    &-active{
+        display: block;
+    }
+    &.visilabs-widget{
+        .swiper-pagination{ display:none; }
+    }
+    .swiper-title{
+        h2{
+            font-size: 30px;
+            text-align: center;
+            font-weight: normal;
+            font-family: $bold;
+            color: $darkBlack;
+            margin: 20px 0 25px 0;
+        }
+    }
+    &-free-mode{
+        .swiper-button-prev,
+        .swiper-button-next,
+        .swiper-pagination{
+            display: none;
+        }
+    }
+    &.widget-new-shoes, &.widget-clothing {
+        .swiper-inner {
+            overflow: hidden !important;
+            position: relative; 
+        }
+    }
+    
+    ul.emosInfinite{
+        .ems-prd{
+            width: 20%;
+            padding: 4px;
+            &-inner{ 
+                padding-bottom:0;
+            }
+            &-content{
+                width: inherit;
+                position: inherit;
+                bottom: inherit;
+                transition: inherit;
+                min-height: inherit;
+                max-height: inherit;
+            }
+            &-content-mask{
+                padding: 10px 5px;
+                display: block;
+                width: inherit;
+                height: inherit;
+                align-items: inherit;
+                justify-content: inherit;
+            }
+            &-group{
+                width: 0;
+            }
+            &-name{
+                min-height: 30px;
+            }
+            &-price{
+                .urunListe_urunStokUyari{ display:none; }
+            }
+            &-image {
+                padding-top: 0;
+                > a img {
+                    transition:none !important;
+                    transform: none !important;
+                    -webkit-transform:none !important;
+                    -webkit-transition:none !important;
+                    -ms-transform:none !important;
+                    -o-transition:none !important;
+                }
+            }
+        }
+        .ems-prd:hover {
+            .ems-prd-image{
+                > a img{ transform: none; }
+            }
+            .ems-prd-group{
+                max-height: 0;
+                width: 0;
+            }
+            .ems-prd-content{
+                background: none;
+                max-height: inherit;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $breakpointXSM){
+
+    .ems-tab-item:first-child{margin-bottom:-2px;}
+    
+    .widget{
+        .swiper-title{
+            h2{ font-size: 20px; }
+        }
+        ul.emosInfinite{
+            padding: 0;
+            .ems-prd{
+                width: 50%;
+                padding: 4px;
+                &-content{
+                    width: 100%;
+                }
+            }
+        }
+        .swiper-button-next,
+        .swiper-button-prev{
+            display: none;
+        }
+        &.widget-new-shoes, &.widget-clothing  {
+            .swiper-inner {
+                .swiper-wrapper {
+                    display: inline-block;
+                }
+            }
+        }
+    }
+
+    .ems-tab-mobi {
+        .widget{
+            &.visilabs-widget{
+                h2{
+                    cursor: pointer;
+                    border-top: 1px solid #231f20;
+                    border-bottom: 1px solid #231f20;
+                    margin-top: 0;
+                    margin-bottom: 0;
+                    padding: 20px 45px 20px 30px;
+                    background: #f2f2f2;
+                    position: relative;
+                    text-align: left;
+                    margin-top: -1px;
+                    &:after{
+                        font-family:'icomoon';
+                        content:'\e914';
+                        font-size: 16px;
+                        display: inline-block;
+                        position: absolute;
+                        top: 50%;
+                        right: 30px;
+                        margin-top: -8px;
+                    }
+                }
+                &.opened{
+                    h2{
+                        border-bottom: none;
+                        &:after{content:'\e910';}
+                    }
+                }
+                .swiper-inner{
+                    max-height: 0;
+                    overflow: hidden;
+                }
+                &.opened{
+                    .swiper-inner{
+                        max-height: 100%;
+                        overflow: visible;
+                        padding: 4px;
+                    }
+                }
+            }
+        }
+    }
+
+}
