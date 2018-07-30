@@ -792,7 +792,7 @@ button.swiper-pagination-bullet {
 
     .main-slider{
         &-default{
-            margin-bottom: 30px;
+            margin-bottom: 0px;
             .thumb-title-pager{ display: none; }
             .swiper-slide {
                 &-cover{ background-position: 50% 100% !important; }

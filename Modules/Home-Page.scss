@@ -522,6 +522,10 @@
                     text-align: right;
                 }
             }
+            .text-animation{
+                opacity: 1;
+                @include setTransform(translateY(0));
+            }
         }
     }
 }
@@ -554,10 +558,6 @@
                     @include setTransform(translateY(0));
                 }
             }
-        }
-        .text-animation{
-            opacity: 1;
-            @include setTransform(translateY(0));
         }
         .ems-banners-box{
             &-col-1{
@@ -813,7 +813,7 @@
 
     .site-discount-banner,
     .ems-popular-categories,
-    .ems-banners{ display: none; }
+    .ems-banners{ /*display: none;*/ }
 
     .ems-tab-mobi{
         padding-top: 30px;
@@ -831,11 +831,31 @@
         padding: 0;
         &-box{
             padding: 0;
+            a {
+                height: auto;
+                opacity: 1;
+            }
         }
         &-type-1{
-            .ems-banners-box{
+            .ems-banners-box{ 
                 &-col-1, &-col-2{
                     width: 100%;
+                }
+            }
+        }
+        &-text {
+            h2{
+                font-size: 35px;
+                line-height: 40px;
+            }
+        }
+        &-box {
+            a {
+                > img {
+                    visibility: visible;
+                    opacity: 1; 
+                    position: relative;
+                    z-index: 9;
                 }
             }
         }
