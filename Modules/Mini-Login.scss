@@ -98,6 +98,8 @@
                                         max-width: 250px;    
                                         margin-left: auto;
                                         margin-right: auto;
+                                        padding-top: 9px;
+                                        padding-bottom: 10px;
                                     }
                                 }
                             }
@@ -152,10 +154,10 @@
                     .seperator,
                     .ems-form-right{
                         display: table-cell;
-                        vertical-align: middle;
+                        vertical-align: top;
                     }
                     .ems-form-left{width: 50%;}
-                    .seperator{width: 15%;}
+                    .seperator{width: 15%; padding-top: 15px;}
                     .ems-form-right{width: 35%;}
                         .ems-field {
                             display: table;
@@ -166,12 +168,21 @@
                             .ems-form-obj{width: 75%; margin-bottom: 0; margin-left: 0;}
                             .btnKutuLogin{
                                 float: right;
-                                padding-top: 13px;
-                                padding-bottom: 13px;
+                                padding-top: 10px;
+                                padding-bottom: 10px;
                                 width: calc(100% - 25%);
+                                background: #fdde00;
+                                color: $darkBlack;
                             }
                             #lnkSifremiUnuttum{width: calc(100% - 25%);float: right; padding-left: 0;}
                             #lnkSifremiUnuttum span{color: #fff;}
+                            &-submit{
+                                a.btnFacebookLoginKutu{
+                                    margin-top: 15px;
+                                    padding-top: 10px;
+                                    padding-bottom: 10px;
+                                }
+                            }
                         }
                     }
                 }
