@@ -23,10 +23,8 @@
         .sub {
             position: absolute;
             top: 30px;
-            right: 125px;
+            right: 0;
             z-index: 10;
-            background: $rgbBg;
-            width: 400px;
             padding: 30px 30px;
             @include animation(cart 333ms ease);
             .ems-message{
@@ -44,16 +42,17 @@
                 text-align: center;
                 display: block;
             }
+            .seperator span{
+                font-size: 13px;
+                color: #fff;
+                font-family: $regular;
+                display: block;
+                padding: 20px 0 20px 0;
+                text-align: center;
+            }
             .ems-form{
                 &-inner{
                     .ems-field{
-                        .seperator span{
-                            font-size: 13px;
-                            color: #bebebe;
-                            font-family: $regular;
-                            display: block;
-                            padding: 20px 0 20px 0;
-                        }
                         .ems-form-obj{
                             input{
                                 background: transparent;
@@ -73,6 +72,8 @@
                         &-submit{
                             a.btnKutuLogin, a.btnFacebookLoginKutu{
                                 max-width: 250px;
+                                padding-left: 5px;
+                                padding-right: 5px;
                             }
                             a.btnFacebookLoginKutu{margin-top: 25px;}
                         }
@@ -81,20 +82,22 @@
                                 display:block;
                                 a.lnkUyeOlmak{
                                     display: block;
-                                    max-width: 250px;
-                                    margin-left: auto;
-                                    margin-right: auto;
                                     background: none;
-                                    padding: 13px 10px 13px 10px;
-                                    border:2px solid #f05201;
+                                    padding: 13px 5px 13px 5px;
+                                    background:#f05201;
                                     &:hover{
-                                        border-color: #D4500D;
+                                        background: #D4500D;
                                     }
                                     span{
                                         color: #fff;
                                         font-family: $bold;
                                         font-size: 15px;
                                         letter-spacing: .9px;
+                                    }
+                                    @media screen and (min-width: 850px){
+                                        max-width: 250px;    
+                                        margin-left: auto;
+                                        margin-right: auto;
                                     }
                                 }
                             }
@@ -103,7 +106,7 @@
                 }
             }
             &.login{
-                width: 200px;
+                width: 100%;
                 padding: 20px;
             }
             .ems-user-info{
@@ -130,10 +133,62 @@
     }
 }
 
+@media screen and (min-width: 850px){
+    .mod-mini-login{
+        &-body{
+            .sub{
+                background: rgba(0,0,0,.4);
+                width: 630px;
+                padding:80px 20px 20px; 
+                .sub-title{
+                    text-align: left;
+                    font-size: 17px;
+                }
+                .ems-form{
+                    &-inner{
+                    width: 100%;
+                    display: table;
+                    .ems-form-left,
+                    .seperator,
+                    .ems-form-right{
+                        display: table-cell;
+                        vertical-align: middle;
+                    }
+                    .ems-form-left{width: 50%;}
+                    .seperator{width: 15%;}
+                    .ems-form-right{width: 35%;}
+                        .ems-field {
+                            display: table;
+                            width: 100%;
+                            .ems-form-label,
+                            .ems-form-obj{display:table-cell; vertical-align: middle; padding-bottom: 15px;}
+                            .ems-form-label{min-width: inherit; float: inherit; color:#fff; font-size: 14px; text-transform: uppercase; width: 25%;}
+                            .ems-form-obj{width: 75%; margin-bottom: 0; margin-left: 0;}
+                            .btnKutuLogin{
+                                float: right;
+                                padding-top: 13px;
+                                padding-bottom: 13px;
+                                width: calc(100% - 25%);
+                            }
+                            #lnkSifremiUnuttum{width: calc(100% - 25%);float: right; padding-left: 0;}
+                            #lnkSifremiUnuttum span{color: #fff;}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 body.mini-login-ready{
     .mod-mini-login{
         &-header{
             background: #2e2a2b; color: #fff;
+        }
+        @media screen and (min-width: 850px){
+            &-header{
+                background: rgba(0, 0, 0, 0.4);
+            }
         }
     }
     .vailLogin{ opacity: .3; visibility: visible; }
@@ -179,6 +234,7 @@ body.ems-login.mini-login-ready{
                     padding-top: 20px;
                     margin-bottom: 20px
                 }
+                .seperator span{color:$darkBlack;}
                 .ems-form{
                     &-inner{
                         padding: 0 50px 30px 50px;
@@ -207,11 +263,6 @@ body.ems-login.mini-login-ready{
                             .ems-new-login{
                                 span[id$="lbflnkUyeOlmak"]{
                                     display:block;
-                                    a.lnkUyeOlmak{
-                                        span{
-                                            color: #1a1718;
-                                        }
-                                    }
                                 }
                             }
                             &-submit{
@@ -277,5 +328,4 @@ body.ems-login.mini-login-ready{
             }
         }
     }
-
 }
