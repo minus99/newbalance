@@ -150,20 +150,21 @@
         }
         &-comment{
             text-align: right;
-            display: none !important;
             .yorumOrtalamaPuan{
+                margin-top: 15px;
+                margin-bottom: 10px;
                 > div, > span{
                     display: inline-block;
                     vertical-align: middle;
                 }
                 > div{
-                    margin-right: 5px;
                     cursor: pointer;
                     &.tableYorumListe_yorumMesaj{
                         display: none;
                     }
                 }
                 > span{
+                    display: none;
                     > a{
                         color: #4d4d4d;
                         font-size: 14px;
@@ -174,6 +175,21 @@
             .star-rating{
                 position: relative;
                 float: inherit;
+            }
+            span[id$="lblURN_YORUMSAYISI"]{
+                &:empty{display: none;}
+                display: table;
+                width: 100%;
+                > span{
+                    min-width: 50%;
+                    display: table-cell;
+                    vertical-align: middle;
+                    font-size: 14px;
+                    &:nth-child(2){
+                        cursor: pointer;
+                        &:hover{text-decoration: underline;}
+                    }
+                }
             }
         }
         &-brand-img{

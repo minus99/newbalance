@@ -765,7 +765,6 @@ body.sip-ajx-loading {
         }
 
          /* Siparişlerim */
-
          .sprContentHolder  {
              padding: 10px;
              .gridSiparis.v2 {
@@ -773,41 +772,41 @@ body.sip-ajx-loading {
                      border-bottom: 3px solid $edGray;
                       > div {
                         width: 100%;
-                          &.detailBtnWrapper, &.sipNo {
-                             
-                          }
-                          &.sipNo {
-                            display: none;
-                            }
-                          &.tarih {display: none;}
+                          &.tutar,
+                          &.tarih,
+                          &.teslimatDurum{display: none;}
+                          padding-left:5px !important;
+                          padding-right:5px !important;
+                          &.sipNo{
+                                font-family: $regular;
+                                font-size: 13px;
+                                color: #727272;
+                                max-width: 33.333%;
+                                overflow-x: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                                display: inline-block;
+                            }   
                       }
-                      .tutar{
-                        width: 20%;
-                     }
-                      .kargoTakip{
-                        width: 50%;
-                     }
-                     .sipDurum{
-                        width: 30%;
-                    }
+                      .sipNo,
+                      .kargoTakip,
+                      .sipDurum{width: 33.333%;}
                  }
                 .rowHeader {
                      > div {
                        width: 100%;
-                         &.sipNo, &.tarih {
-                              display:none;
-                          }
+                       &.tutar,
+                       &.tarih,
+                       &.teslimatDurum{display: none;}
+                        padding-left:5px !important;
+                        padding-right:5px !important;
                      }
-                     .tutar{
-                        width: 20%;
-                     }
-                     .kargoTakip{
-                        width: 50%;
-                     }
-                     .sipDurum{
-                        width: 30%;
-                     }
+                    .sipNo,
+                    .kargoTakip,
+                    .sipDurum{width: 33.333%;}
                 }
+                .subGrid .rowHeader div{width: 24% !important;}
+                .subGrid .row div{width: 25% !important;}
              }
             .subGrid {
                     .urnResim, .urnAciklama {display: none !important;}
@@ -823,44 +822,6 @@ body.sip-ajx-loading {
                     }
             }
          }
-
-         /*
-            .sprContentHolder  {
-                padding: 10px;
-                .gridSiparis.v2 {
-                    .rowHeader {
-                        float: left;
-                        width: 90px;
-                        display: inline-block!important;
-                        vertical-align: top;
-                        > div {
-                            width: 100%!important;
-                            display: inline-block;
-                            text-align: left;
-                            height: 50px;
-                            overflow: hidden;
-                            padding: 15px !important;
-                            &.teslimatDurum {
-                                display: inline-block !important;
-                            }
-                        }
-                    }
-                    .rowSipHolder {
-                        width: calc(100% - 90px);
-                        > div {
-                            width: 100% !important;
-                            display: inline-block;
-                            height: 50px;
-                            overflow: hidden;
-                            padding: 15px !important;
-                            &.teslimatDurum {
-                                display: inline-block !important;
-                            }
-                        }
-                     }
-                }
-                   
-            }*/
     }
 
     .pageSitemap{

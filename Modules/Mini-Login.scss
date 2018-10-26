@@ -104,6 +104,9 @@
                                 }
                             }
                         }
+                        .btnKutuLogin{
+                            background: #fdde00;
+                        }
                     }
                 }
             }
@@ -164,14 +167,13 @@
                             width: 100%;
                             .ems-form-label,
                             .ems-form-obj{display:table-cell; vertical-align: middle; padding-bottom: 15px;}
-                            .ems-form-label{min-width: inherit; float: inherit; color:#fff; font-size: 14px; text-transform: uppercase; width: 25%;}
+                            .ems-form-label{min-width: inherit; float: inherit; color:#fff; font-size: 14px; width: 25%;}
                             .ems-form-obj{width: 75%; margin-bottom: 0; margin-left: 0;}
                             .btnKutuLogin{
                                 float: right;
                                 padding-top: 10px;
                                 padding-bottom: 10px;
                                 width: calc(100% - 25%);
-                                background: #fdde00;
                                 color: $darkBlack;
                             }
                             #lnkSifremiUnuttum{width: calc(100% - 25%);float: right; padding-left: 0;}
@@ -283,6 +285,7 @@ body.ems-login.mini-login-ready{
                                     padding-bottom: 17px;
                                 }
                             }
+                            .btnKutuLogin{color: $darkBlack;}
                         }
                     }
                 }
