@@ -211,6 +211,8 @@ body.basket-empty{
     .mod-mini-cart{
         &-body{
             padding: 20px 20px 20px 20px;
+            .ems-col-total,
+            .ems-col-link{display: none;}
         }
     }
 }

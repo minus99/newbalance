@@ -179,12 +179,21 @@
             span[id$="lblURN_YORUMSAYISI"]{
                 &:empty{display: none;}
                 display: table;
-                width: 100%;
+                width: auto;
+                float: right;
                 > span{
-                    min-width: 50%;
                     display: table-cell;
                     vertical-align: middle;
                     font-size: 14px;
+                    &:nth-child(1){
+                        padding-right: 10px;
+                        &:after{
+                            content:'|';
+                            font-family:$regular;
+                            font-size: 14px;
+                            margin-left: 10px;
+                        }
+                    }
                     &:nth-child(2){
                         cursor: pointer;
                         &:hover{text-decoration: underline;}
