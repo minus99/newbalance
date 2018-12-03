@@ -581,6 +581,9 @@
 
   @media only screen and (max-width: $breakpointXSM) {
 
+    .ems-banners .ems-banners-overflow .video-cover{ display:none;  }
+    .ems-banners .ems-banners-overflow .cover.mobile{ display: block; height: 240px; }
+
    .parallax {
       height: auto;
       overflow: inherit;
@@ -701,6 +704,4 @@
       .bg3 {height: 320px; width:100%; -webkit-transform:none; -webkit-transition: none; transform:none; transition: none;}
       .bg4 {display: none;}
     }
-
-
-  }
+}

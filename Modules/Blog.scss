@@ -4,9 +4,9 @@
     position: relative;
     display: block;
     .swiper-title {
-        padding-bottom: 0;
-        a.bPage {
-            position: absolute; 
+        padding-bottom: 0; 
+        a.bPage { 
+            position: absolute;  
             right: 0px;
             top: 30px;
             background: #fff;
@@ -37,7 +37,7 @@
         position: relative;
     }
     .swiper-inner {
-        margin-top: 20px;
+        margin-top: 20px; 
         /*overflow: hidden;*/  
         ul {
             li {
