@@ -259,6 +259,7 @@ body.ems-page-active-discount-list{
                             > span{
                                 .paging{
                                     display: inline-block;
+                                    vertical-align: middle;
                                     letter-spacing: 0.9px;
                                     color: #fff;
                                     font-family: $bold;
@@ -281,7 +282,8 @@ body.ems-page-active-discount-list{
                                 display: none;
                             }
                             > a.firstPage, > a.lastPage{
-                                display: inline-block !important;
+                                /*display: inline-block !important;*/
+                                display: none !important;
                                 i{
                                     &:before{
                                         color: #646464;
@@ -299,11 +301,47 @@ body.ems-page-active-discount-list{
                                 display: inline-block !important;
                                 position: absolute;
                                 top: 50%;
-                                right: 30px;
+                                right: 20px;
                                 padding: 10px;
                                 margin-top: -18px;
                                 line-height: 18px;
-                                span{color: #fff;letter-spacing:0.9px;font-family:$bold;text-decoration: underline;}
+                                span{
+                                    color: #fff;
+                                    letter-spacing:0.9px;
+                                    font-family:$bold;
+                                    text-decoration: underline;
+                                    @include transition(all 0.2s ease);
+                                }
+                                &:hover{
+                                    span{color: #fdde00;}
+                                }
+                            }
+                            @media screen and (min-width: 850px){
+                                > a[id$="lnkNext"], > a[id$="lnkPrev"]{
+                                    display: inline-block !important;
+                                    vertical-align: middle;
+                                    width: 25px;
+                                    height: 25px;
+                                    line-height: 25px;
+                                    text-align: center;
+                                    &:before{
+                                        font-family:'icomoon';
+                                        color: #646464;
+                                        font-size: 11px;
+                                        display: inline-block;
+                                    }
+                                    .effect-arrow, span{display: none;}
+                                }
+                                > a[id$="lnkNext"]{
+                                    &:before{
+                                        content: "\e902";
+                                    }
+                                }
+                                > a[id$="lnkPrev"]{
+                                    &:before{
+                                        content:"\e901";
+                                    }
+                                }
                             }
                         }
                     }

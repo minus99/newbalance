@@ -1124,12 +1124,17 @@
                     .swiper-inner{
                         margin-top: 20px;
                     }
+                    ul li,
+                    ul li.swiper-slide{
+                        width: 104px;
+                    }
                     ul li .URN_RESIM,
                     ul li.swiper-slide .URN_RESIM,
                     ul.swiper-wrapper li .URN_RESIM,
                     ul.swiper-wrapper li.swiper-slide .URN_RESIM{
                         margin-left: 2px;
                         margin-right: 2px;
+                        img{image-rendering: inherit; }
                     }
                     .swiper-button-prev,
                     .swiper-button-next{
