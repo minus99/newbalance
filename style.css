@@ -3841,28 +3841,30 @@ span.checkbox {
   position: relative;
   z-index: 1; }
 
-.main-slider {
-  border: 1px solid red; }
-  .main-slider-default .swiper-pagination {
-    display: none; }
-  .main-slider-default .swiper-button-prev, .main-slider-default .swiper-button-next {
-    margin-top: -47px;
+.main-slider-default .swiper-pagination {
+  display: none; }
+
+.main-slider-default .swiper-button-prev, .main-slider-default .swiper-button-next {
+  margin-top: -47px;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease; }
+  .main-slider-default .swiper-button-prev i:before, .main-slider-default .swiper-button-next i:before {
     transition: all 0.2s ease;
     -webkit-transition: all 0.2s ease;
     -o-transition: all 0.2s ease; }
-    .main-slider-default .swiper-button-prev i:before, .main-slider-default .swiper-button-next i:before {
-      transition: all 0.2s ease;
-      -webkit-transition: all 0.2s ease;
-      -o-transition: all 0.2s ease; }
-  .main-slider-default .swiper-button-prev:hover, .main-slider-default .swiper-button-next:hover {
-    background: #fdde00; }
-    .main-slider-default .swiper-button-prev:hover i:before, .main-slider-default .swiper-button-next:hover i:before {
-      color: #231f20; }
-  .main-slider-default .thumb-title-pager {
-    overflow: hidden;
-    width: 100%; }
-  .main-slider .swiper-slide > a {
-    display: block; }
+
+.main-slider-default .swiper-button-prev:hover, .main-slider-default .swiper-button-next:hover {
+  background: #fdde00; }
+  .main-slider-default .swiper-button-prev:hover i:before, .main-slider-default .swiper-button-next:hover i:before {
+    color: #231f20; }
+
+.main-slider-default .thumb-title-pager {
+  overflow: hidden;
+  width: 100%; }
+
+.main-slider .swiper-slide > a {
+  display: block; }
 
 .swiper-inner {
   position: relative;
