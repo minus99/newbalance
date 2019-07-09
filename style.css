@@ -3835,6 +3835,9 @@ span.checkbox {
       -ms-flex-order: 1;
       order: 1; } }
 
+* {
+  outline: none; }
+
 .swiper-container {
   margin-left: auto;
   margin-right: auto;
