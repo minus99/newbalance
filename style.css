@@ -2595,7 +2595,7 @@ body {
   left: 0;
   top: 0;
   z-index: 9;
-  background: #fff;
+  background: #000;
   width: 100%;
   height: 100%;
   opacity: 0;
@@ -2684,11 +2684,11 @@ body {
   border-radius: 3px; }
   .ems-message b {
     font-weight: normal;
-    font-family: "bold"; }
+    font-family: arial; }
 
 .ems-message b, .pageLogin_yeniUyelikHata b, .pageErrorUyeSifre b, .pageErrorSifremiUnuttum b, .pageSifremiUnuttum_mesaj b, .ems-page-new-address .pageErrorDefault b {
   font-weight: normal;
-  font-family: "bold"; }
+  font-family: arial; }
 
 .pageLogin_yeniUyelikHata {
   color: inherit !important; }
@@ -2729,7 +2729,7 @@ body {
   position: relative;
   display: block;
   font-size: 15px;
-  font-family: "bold"; }
+  font-family: arial; }
   .page-top-title + .page-top-desc, .page-top-title + .pageDescDefault, .pageHeaderDefault + .page-top-desc, .pageHeaderDefault + .pageDescDefault {
     margin-top: 20px; }
 
@@ -2794,7 +2794,7 @@ body {
 
 .ems-top-scroll a.btnDefaultTopScroll {
   cursor: pointer;
-  background: #fdde00;
+  background: #DA1021;
   padding-top: 24px;
   padding-bottom: 24px; }
   .ems-top-scroll a.btnDefaultTopScroll i, .ems-top-scroll a.btnDefaultTopScroll i:before {
@@ -3517,7 +3517,7 @@ a.btnDefault, .ems-col.ems-col-link a {
   font-weight: normal;
   width: 100%;
   line-height: 1;
-  font-family: "bold";
+  font-family: arial;
   transition: all 0.2s ease;
   -webkit-transition: all 0.2s ease;
   -o-transition: all 0.2s ease; }
@@ -3562,7 +3562,7 @@ a.btnDefault, .ems-col.ems-col-link a {
   display: inline-block;
   color: #fff;
   letter-spacing: 1px;
-  font-family: "bold";
+  font-family: arial;
   font-size: 15px; }
   .link-btn > span, .link-btn i {
     display: inline-block;
@@ -3618,7 +3618,7 @@ span.checkbox {
       height: 12px;
       display: inline-block; }
       span.checkbox .sStylerMainWrp span.cStyler.checked {
-        background: #fdde00; }
+        background: #DA1021; }
 
 .sStylerMainWrp.sStylerWrp_select {
   position: relative;
@@ -3692,7 +3692,7 @@ span.checkbox {
         .ems-form-inner .ems-field .ems-form-obj .g-recaptcha {
           display: none; }
       .ems-form-inner .ems-field input[type="text"]:focus, .ems-form-inner .ems-field input[type="password"]:focus, .ems-form-inner .ems-field textarea:focus {
-        border-color: #fdde00; }
+        border-color: #DA1021; }
       .ems-form-inner .ems-field textarea {
         resize: none; }
       .ems-form-inner .ems-field .ems-form-obj-alternate {
@@ -3770,7 +3770,7 @@ span.checkbox {
           height: 12px;
           display: inline-block; }
           .ems-form-inner .ems-field-remember span.sStylerMainWrp span.cStyler.checked {
-            background: #fdde00; }
+            background: #DA1021; }
       .ems-form-inner .ems-field-remember .ems-form-obj {
         margin-bottom: 30px; }
         .ems-form-inner .ems-field-remember .ems-form-obj span[id$="lbfUYE_BENIHATIRLA_FL"] {
@@ -3855,7 +3855,7 @@ span.checkbox {
     -o-transition: all 0.2s ease; }
 
 .main-slider-default .swiper-button-prev:hover, .main-slider-default .swiper-button-next:hover {
-  background: #fdde00; }
+  background: #DA1021; }
   .main-slider-default .swiper-button-prev:hover i:before, .main-slider-default .swiper-button-next:hover i:before {
     color: #231f20; }
 
@@ -3955,7 +3955,7 @@ span.checkbox {
       margin: 0;
       font-weight: normal; }
     .swiper-slide .content-wrapper > div h1 {
-      font-family: "bold";
+      font-family: arial;
       font-size: 50px; }
     .swiper-slide .content-wrapper > div h2 {
       font-family: "regular";
@@ -3968,7 +3968,7 @@ span.checkbox {
         color: #231f20; }
       .swiper-slide .content-wrapper > div .btn-price-span, .swiper-slide .content-wrapper > div .btn-price-btn {
         display: inline-block;
-        background: #fdde00;
+        background: #DA1021;
         width: 100%;
         max-width: 225px;
         position: absolute;
@@ -3979,7 +3979,7 @@ span.checkbox {
         text-align: center;
         font-size: 15px;
         letter-spacing: 0.9px;
-        font-family: "bold"; }
+        font-family: arial; }
         .swiper-slide .content-wrapper > div .btn-price-span i.icon-ico_arrow-right, .swiper-slide .content-wrapper > div .btn-price-btn i.icon-ico_arrow-right {
           margin-left: 20px; }
         .swiper-slide .content-wrapper > div .btn-price-span i.icon-ico_arrow-right, .swiper-slide .content-wrapper > div .btn-price-span i.icon-ico_arrow-right:before, .swiper-slide .content-wrapper > div .btn-price-btn i.icon-ico_arrow-right, .swiper-slide .content-wrapper > div .btn-price-btn i.icon-ico_arrow-right:before {
@@ -4728,7 +4728,7 @@ button.swiper-pagination-bullet {
       text-align: left; }
       .ems-tab-sss .ems-tab-inner > ul.content-js > li > a span {
         font-size: 20px;
-        font-family: "bold";
+        font-family: arial;
         color: #231f20; }
       .ems-tab-sss .ems-tab-inner > ul.content-js > li > a:after {
         content: '\e914';
@@ -4820,7 +4820,7 @@ button.swiper-pagination-bullet {
       opacity: 1; }
 
 .ems-page-member .ems-grid-address .ems-grid-row .ems-address-name {
-  font-family: "bold"; }
+  font-family: arial; }
   .ems-page-member .ems-grid-address .ems-grid-row .ems-address-name .adresTip1, .ems-page-member .ems-grid-address .ems-grid-row .ems-address-name .adresTip2 {
     font-family: "regular";
     display: block;
@@ -5046,7 +5046,7 @@ button.swiper-pagination-bullet {
 
 .ems-page-member .ems-page-default-follow-list .report-holder .inner-title {
   font-size: 15px;
-  font-family: "bold"; }
+  font-family: arial; }
 
 .ems-page-member .ems-grid-default-stock .ems-grid-row {
   padding: 19px 0 !important; }
@@ -5147,7 +5147,7 @@ button.swiper-pagination-bullet {
         font-size: 13px;
         font-family: "regular"; }
       .ems-page-member .ems-grid-default .ems-grid-row .ems-grid-name a span.prdItem {
-        font-family: "bold";
+        font-family: arial;
         font-size: 15px; }
     .ems-page-member .ems-grid-default .ems-grid-row .ems-grid-code a {
       font-size: 13px;
@@ -5173,9 +5173,9 @@ button.swiper-pagination-bullet {
         color: #bebebe;
         height: 30px; }
         .ems-page-member .ems-grid-default .ems-grid-row .ems-grid-piece a:hover {
-          background: #fdde00;
+          background: #DA1021;
           color: #231f20;
-          border: 1px solid #fdde00; }
+          border: 1px solid #DA1021; }
     .ems-page-member .ems-grid-default .ems-grid-row .ems-grid-price-total {
       width: 20%;
       text-align: center; }
@@ -5251,7 +5251,7 @@ button.swiper-pagination-bullet {
           max-height: 100px; }
       .ems-page-member .ems-grid-default .ems-grid-row .ems-name, .ems-page-member .ems-grid-default .ems-grid-row .ems-price {
         font-size: 15px;
-        font-family: "bold";
+        font-family: arial;
         margin-top: 10px; }
       .ems-page-member .ems-grid-default .ems-grid-row > div {
         padding-left: 10px;
@@ -5301,7 +5301,7 @@ button.swiper-pagination-bullet {
   .ems-page-default-message-detail .ems-message-type li:first-child > span, .ems-page-default-message-detail .msgDtHeader li:first-child > span, .ems-page-default-message-detail .msgDtContent li:first-child > span {
     border-bottom: 0;
     font-size: 16px;
-    font-family: "bold";
+    font-family: arial;
     color: #231f20; }
 
 .ems-page-default-message-detail .msgDtList {
@@ -5337,12 +5337,12 @@ button.swiper-pagination-bullet {
     border-bottom: 0; }
     .ems-page-default-message-detail .msgDtList .msgDtHeader ul li > span:first-child {
       font-size: 16px;
-      font-family: "bold";
+      font-family: arial;
       color: #231f20; }
 
 .ems-page-default-message-detail .tableTitleMesajGonder span {
   font-size: 15px;
-  font-family: "bold";
+  font-family: arial;
   padding: 30px 0;
   display: block; }
 
@@ -5687,7 +5687,7 @@ button.swiper-pagination-bullet {
 
 .blog-header-top .logo a i {
   font-size: 20px;
-  font-family: "bold";
+  font-family: arial;
   color: #fff;
   font-style: normal;
   position: relative;
@@ -5881,7 +5881,7 @@ button.swiper-pagination-bullet {
   z-index: 9;
   background: #1a1718;
   padding: 20px;
-  border: 1px solid #fdde00;
+  border: 1px solid #DA1021;
   min-width: 320px;
   height: 345px;
   overflow-x: hidden; }
@@ -6168,7 +6168,7 @@ button.swiper-pagination-bullet {
 
 .blog-list .blog-post-item .item-text-wrap .row .item-head {
   font-size: 20px;
-  font-family: "bold";
+  font-family: arial;
   max-height: 48px;
   line-height: 24px;
   letter-spacing: 0.6px;
@@ -6194,7 +6194,7 @@ button.swiper-pagination-bullet {
 .blog-list .blog-post-item .item-text-wrap .row.blgName:before {
   content: '';
   height: 3px;
-  background: #fdde00;
+  background: #DA1021;
   width: 45px;
   display: inline-block;
   position: absolute;
@@ -6453,7 +6453,7 @@ button.swiper-pagination-bullet {
   border-radius: 3px; }
 
 .blog-detail-container > section.sec-share ul.share-list li a:hover {
-  background: #fdde00;
+  background: #DA1021;
   color: #fff; }
 
 /* Video */
@@ -6546,7 +6546,7 @@ button.swiper-pagination-bullet {
 
 .blog-detail-container > section.sec-header h1 {
   font-size: 25px;
-  font-family: "bold";
+  font-family: arial;
   margin: 10px 0 20px 0;
   font-weight: normal; }
 
@@ -6570,7 +6570,7 @@ button.swiper-pagination-bullet {
   position: absolute;
   left: -50px;
   top: 5px;
-  font-family: "bold"; }
+  font-family: arial; }
 
 .blog-detail-container > section.sec-header a.hBack i {
   font-size: 14px;
@@ -6837,7 +6837,7 @@ a.load-more-btn > span {
         display: inline-block;
         letter-spacing: 0.9px;
         color: #fff;
-        font-family: "bold";
+        font-family: arial;
         padding: 7px 0;
         width: 30px;
         height: 30px;
@@ -6845,7 +6845,7 @@ a.load-more-btn > span {
         margin: 32px .5%;
         text-align: center; }
       .icerikListePagingAlt table tbody tr td .urunPaging_pageNavigation > span span.paging {
-        background: #fdde00;
+        background: #DA1021;
         color: #231f20; }
       .icerikListePagingAlt table tbody tr td .urunPaging_pageNavigation:empty {
         display: none; }
@@ -6871,7 +6871,7 @@ a.load-more-btn > span {
         .icerikListePagingAlt table tbody tr td .urunPaging_pageNavigation a.tumunuGoster span {
           color: #fff;
           letter-spacing: 0.9px;
-          font-family: "bold";
+          font-family: arial;
           text-decoration: underline; }
 
 @media screen and (max-width: 960px) {
@@ -7248,7 +7248,7 @@ a.load-more-btn > span {
         bottom: 0;
         letter-spacing: .9px;
         padding: 17px 10px;
-        font-family: "bold";
+        font-family: arial;
         color: #231f20; }
         .icerikListePagingAlt table tbody tr td .urunPaging_pageNavigation > a.paging span {
           display: none; }
@@ -7261,7 +7261,7 @@ a.load-more-btn > span {
           content: 'ÖNCEKİ'; }
       .icerikListePagingAlt table tbody tr td .urunPaging_pageNavigation > a[id$="lnkNext"] {
         right: 0;
-        background: #fdde00; }
+        background: #DA1021; }
         .icerikListePagingAlt table tbody tr td .urunPaging_pageNavigation > a[id$="lnkNext"]:after {
           content: 'SONRAKİ'; }
       .icerikListePagingAlt table tbody tr td .urunPaging_pageNavigation > a.firstPage, .icerikListePagingAlt table tbody tr td .urunPaging_pageNavigation > a.lastPage, .icerikListePagingAlt table tbody tr td .urunPaging_pageNavigation a.tumunuGoster {
@@ -7285,7 +7285,7 @@ a.load-more-btn > span {
     margin-bottom: 35px; }
   .jconfirm.what-store-pp .column-left .adresBaslik {
     font-size: 20px;
-    font-family: "bold";
+    font-family: arial;
     margin-bottom: 15px; }
   .jconfirm.what-store-pp .column-left .adres {
     font-size: 18px;
@@ -7464,7 +7464,7 @@ a.load-more-btn > span {
           font-size: 13px;
           font-family: "regular"; }
         .ems-page-cart .cart-section-left .ems-grid-default .ems-grid-row .ems-grid-name a span.prdItem {
-          font-family: "bold";
+          font-family: arial;
           font-size: 15px; }
       .ems-page-cart .cart-section-left .ems-grid-default .ems-grid-row .ems-grid-code a {
         font-size: 13px;
@@ -7495,9 +7495,9 @@ a.load-more-btn > span {
           color: #bebebe;
           height: 30px; }
           .ems-page-cart .cart-section-left .ems-grid-default .ems-grid-row .ems-grid-piece a:hover {
-            background: #fdde00;
+            background: #DA1021;
             color: #231f20;
-            border: 1px solid #fdde00; }
+            border: 1px solid #DA1021; }
       .ems-page-cart .cart-section-left .ems-grid-default .ems-grid-row .ems-grid-price-total {
         width: 20%;
         text-align: center;
@@ -7545,7 +7545,7 @@ a.load-more-btn > span {
     .ems-page-cart .cart-section-right .ems-cart-summary .pnlDipToplamTable th, .ems-page-cart .cart-section-right .ems-cart-summary .pnlDipToplamTable td {
       font-weight: normal; }
       .ems-page-cart .cart-section-right .ems-cart-summary .pnlDipToplamTable th span, .ems-page-cart .cart-section-right .ems-cart-summary .pnlDipToplamTable td span {
-        font-family: "bold"; }
+        font-family: arial; }
     .ems-page-cart .cart-section-right .ems-cart-summary .pnlDipToplamTable th {
       text-align: left; }
     .ems-page-cart .cart-section-right .ems-cart-summary .pnlDipToplamTable tr {
@@ -7557,7 +7557,7 @@ a.load-more-btn > span {
       margin: 10px 0 20px 0; }
       .ems-page-cart .cart-section-right .ems-cart-summary-coupon > span {
         display: block;
-        font-family: "bold";
+        font-family: arial;
         font-size: 15px;
         color: #bebebe;
         cursor: pointer; }
@@ -7577,14 +7577,14 @@ a.load-more-btn > span {
           position: absolute;
           right: 0;
           top: 0;
-          font-family: "bold";
+          font-family: arial;
           font-size: 15px;
           width: auto; }
           .ems-page-cart .cart-section-right .ems-cart-summary-coupon-body table a.btnHediyeCekiKullan {
             display: block;
             padding: 11px;
             line-height: 1;
-            font-family: "bold";
+            font-family: arial;
             font-size: 12px;
             color: #bebebe; }
             .ems-page-cart .cart-section-right .ems-cart-summary-coupon-body table a.btnHediyeCekiKullan i {
@@ -7674,7 +7674,7 @@ a.load-more-btn > span {
               font-size: 13px;
               opacity: 1; }
         .ems-page-cart .ems-page-order-delivery .ems-grid-address .ems-grid-row .ems-address-name {
-          font-family: "bold"; }
+          font-family: arial; }
           .ems-page-cart .ems-page-order-delivery .ems-grid-address .ems-grid-row .ems-address-name .adresTip1, .ems-page-cart .ems-page-order-delivery .ems-grid-address .ems-grid-row .ems-address-name .adresTip2 {
             font-family: "regular";
             display: block;
@@ -7709,7 +7709,7 @@ a.load-more-btn > span {
             position: relative;
             top: 2px; }
           .ems-page-cart .ems-page-order-delivery .ems-grid-address .ems-grid-row .btnTesAdrSec.emos_selected:before, .ems-page-cart .ems-page-order-delivery .ems-grid-address .ems-grid-row .btnFatAdrSec.emos_selected:before {
-            background: #fdde00;
+            background: #DA1021;
             -webkit-box-shadow: inset 0 0px 0px 3px;
             box-shadow: inset 0 0px 0px 3px; }
           .ems-page-cart .ems-page-order-delivery .ems-grid-address .ems-grid-row .btnTesAdrSec.emos_selected:hover, .ems-page-cart .ems-page-order-delivery .ems-grid-address .ems-grid-row .btnFatAdrSec.emos_selected:hover {
@@ -7830,7 +7830,7 @@ a.load-more-btn > span {
           .ems-page-cart .ems-page-order-delivery .ems-delivery-tabs .ems-cargo-tab .divTeslimatKargo > ul > li .kargoAdi {
             display: none; }
           .ems-page-cart .ems-page-order-delivery .ems-delivery-tabs .ems-cargo-tab .divTeslimatKargo > ul > li .fiyat {
-            font-family: "bold";
+            font-family: arial;
             display: block;
             margin-bottom: 20px; }
       .ems-page-cart .ems-page-order-delivery .ems-delivery-tabs .ems-gift-tab {
@@ -7885,7 +7885,7 @@ a.load-more-btn > span {
       margin-right: 10px;
       background: #fff; }
       .ems-page-cart .ems-page-order-delivery span.cStyler.checked {
-        background: #fdde00;
+        background: #DA1021;
         -webkit-box-shadow: inset 0 0px 0px 2px #fff;
         box-shadow: inset 0 0px 0px 2px #fff; }
   .ems-page-cart .no-prd {
@@ -7894,7 +7894,7 @@ a.load-more-btn > span {
       font-size: 120px; }
     .ems-page-cart .no-prd p {
       font-size: 25px;
-      font-family: "bold";
+      font-family: arial;
       margin: 50px 0 30px 0; }
   .ems-page-cart .ems-page-order-payment {
     display: table;
@@ -8186,7 +8186,7 @@ a.load-more-btn > span {
                 -o-transition: all 0.2s ease;
                 font-family: "medium"; }
             .ems-page-cart .ems-page-order-payment .ems-cart-pay-type .tableOdemeBilgiHavale .tableOdemeBilgiHavale_tddrpBNK_KOD_HV .link > a.emos_selected {
-              background: #fdde00; }
+              background: #DA1021; }
               .ems-page-cart .ems-page-order-payment .ems-cart-pay-type .tableOdemeBilgiHavale .tableOdemeBilgiHavale_tddrpBNK_KOD_HV .link > a.emos_selected span {
                 color: #1a1718; }
     .ems-page-cart .ems-page-order-payment .ems-cart-agreement .order-sip-clone .ems-cart-summary > table {
@@ -8254,11 +8254,11 @@ a.load-more-btn > span {
         .ems-page-cart .ems-page-order-payment .ems-cart-pay-adress {
           margin-top: 90px; } }
       .ems-page-cart .ems-page-order-payment .ems-cart-pay-adress .baslik {
-        font-family: "bold";
+        font-family: arial;
         margin-bottom: 10px;
         display: block; }
       .ems-page-cart .ems-page-order-payment .ems-cart-pay-adress .ems-cart-payment-trigger span {
-        font-family: "bold";
+        font-family: arial;
         font-size: 17px;
         padding: 20px 0 20px 0;
         display: block;
@@ -8294,7 +8294,7 @@ a.load-more-btn > span {
       width: 100%;
       display: inline-block; }
       .ems-page-cart .ems-page-order-payment .ems-pay-type-desc h1 {
-        font-family: "bold";
+        font-family: arial;
         margin-bottom: 10px;
         font-size: 15px; }
       .ems-page-cart .ems-page-order-payment .ems-pay-type-desc span.text {
@@ -8348,7 +8348,7 @@ a.load-more-btn > span {
       .ems-page-cart .ems-page-order-payment .ems-grid-payment-wrapper .cart-section-left {
         display: none; }
       .ems-page-cart .ems-page-order-payment .ems-grid-payment-wrapper span[id$="lbfPAGEHDR_ODEMEBILGI"] {
-        font-family: "bold";
+        font-family: arial;
         font-size: 17px;
         display: block;
         padding: 20px 0 20px 0;
@@ -8376,7 +8376,7 @@ a.load-more-btn > span {
   .ems-page-cart .pageSiparisSonuc {
     text-align: center; }
     .ems-page-cart .pageSiparisSonuc .sonucTitle {
-      font-family: "bold";
+      font-family: arial;
       font-size: 20px;
       color: #231f20;
       margin-bottom: 20px;
@@ -8482,7 +8482,7 @@ a.load-more-btn > span {
       content: '';
       width: 13px;
       height: 13px;
-      background: #fdde00;
+      background: #DA1021;
       display: inline-block;
       margin-right: 20px;
       border-radius: 100%;
@@ -8611,7 +8611,7 @@ a.load-more-btn > span {
               color: #fff;
               font-family: "medium"; }
             .ems-page-cart .ems-page-order-delivery .ems-grid-address .ems-grid-row .col-3 a.emos_selected {
-              background: #fdde00; }
+              background: #DA1021; }
               .ems-page-cart .ems-page-order-delivery .ems-grid-address .ems-grid-row .col-3 a.emos_selected span {
                 color: #231f20; }
             .ems-page-cart .ems-page-order-delivery .ems-grid-address .ems-grid-row .col-3 a.btnFatAdrSec {
@@ -8764,8 +8764,8 @@ a.load-more-btn > span {
         font-family: 'icomoon';
         content: "\e914";
         font-size: 8px;
-        color: #fdde00;
-        color: #fdde00;
+        color: #DA1021;
+        color: #DA1021;
         line-height: 10px; }
     .kutuKategori ul.menuKategori li a {
       display: inline-block;
@@ -8782,10 +8782,10 @@ a.load-more-btn > span {
         font-weight: normal;
         width: 17px;
         height: 2px;
-        background: #fdde00;
+        background: #DA1021;
         display: none; }
       .kutuKategori ul.menuKategori li a.active {
-        font-family: "bold"; }
+        font-family: arial; }
       .kutuKategori ul.menuKategori li a:hover {
         text-decoration: underline; }
     .kutuKategori ul.menuKategori li.sub {
@@ -8915,7 +8915,7 @@ a.load-more-btn > span {
       height: 55px;
       background: #f8f8f8;
       font-size: 18px;
-      font-family: "bold";
+      font-family: arial;
       border: none;
       padding-left: 20px;
       padding-right: 20px; }
@@ -9022,7 +9022,7 @@ a.load-more-btn > span {
     -ms-flex-align: center;
     align-items: center; }
     .yorumListe_main .yorumOzet .yorumOrtalamaPuan > span {
-      font-family: "bold";
+      font-family: arial;
       font-size: 20px; }
       .yorumListe_main .yorumOzet .yorumOrtalamaPuan > span:first-child {
         display: none; }
@@ -9059,7 +9059,7 @@ a.load-more-btn > span {
   .yorumListe_main .yorumOzet .yorumYap {
     text-align: center; }
   .yorumListe_main .yorumOzet a.btnYorumYap {
-    background: #fdde00;
+    background: #DA1021;
     color: #231f20;
     max-width: 225px;
     margin-top: 50px; }
@@ -9077,7 +9077,7 @@ a.load-more-btn > span {
     display: none; }
   .yorumListe_main .yorumEkle > span {
     display: block;
-    font-family: "bold";
+    font-family: arial;
     font-weight: normal;
     color: #fff;
     font-size: 30px;
@@ -9142,14 +9142,14 @@ a.load-more-btn > span {
       .yorumListe_main .yorumEkle .btnYorumGonder .yorumDurum:empty {
         display: none; }
     .yorumListe_main .yorumEkle .btnYorumGonder a.btnYorumGonder {
-      background: #fdde00;
+      background: #DA1021;
       color: #231f20;
       max-width: 325px;
       margin-top: 50px; }
   .yorumListe_main > span[id$="lbfMDLHEADER_YORUMLAR"] {
     display: block !important; }
   .yorumListe_main .yorum-baslik {
-    font-family: "bold";
+    font-family: arial;
     font-weight: normal;
     color: #fff;
     font-size: 30px;
@@ -9221,7 +9221,7 @@ a.load-more-btn > span {
       -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
       .yorumListe_main .yorumListe .yorum_main .yorumBilgi .tableYorumListe_yorumBaslik, .yorumListe_main .yorumListe .yorum_main .adminYorumBilgi .tableYorumListe_yorumBaslik {
-        font-family: "bold";
+        font-family: arial;
         font-size: 20px;
         padding: 5px 0; }
       .yorumListe_main .yorumListe .yorum_main .yorumBilgi .tableYorumListe_yorumMesaj, .yorumListe_main .yorumListe .yorum_main .adminYorumBilgi .tableYorumListe_yorumMesaj {
@@ -9323,7 +9323,7 @@ a.load-more-btn > span {
     cursor: pointer;
     background: none;
     letter-spacing: .9px;
-    font-family: "bold";
+    font-family: arial;
     color: #231f20;
     font-size: 13px;
     border: none;
@@ -9345,7 +9345,7 @@ a.load-more-btn > span {
     top: 30px;
     left: 0;
     z-index: 10;
-    background: rgba(35, 31, 32, 0.95);
+    background: rgba(222, 222, 222, 0.95);
     width: 75px;
     padding: 10px 10px; }
     .kutuKurDegis .kutuKurDegis_pb > ul li a {
@@ -9353,7 +9353,7 @@ a.load-more-btn > span {
       border-top: 1px solid #979797;
       display: block;
       color: #fff;
-      font-family: "bold";
+      font-family: arial;
       font-size: 13px;
       font-weight: normal;
       text-align: center; }
@@ -9372,7 +9372,7 @@ a.load-more-btn > span {
 .kutuOzellikFiltre .urunKiyaslamaOzellik_ozellik .urunKiyaslamaOzellik_ozellikAd {
   cursor: pointer;
   position: relative;
-  font-family: "bold";
+  font-family: arial;
   padding: 15px 15px 15px 0;
   text-transform: uppercase; }
   .kutuOzellikFiltre .urunKiyaslamaOzellik_ozellik .urunKiyaslamaOzellik_ozellikAd:before {
@@ -9403,7 +9403,7 @@ a.load-more-btn > span {
       font-family: "medium";
       font-size: 13px; }
       .kutuOzellikFiltre .urunKiyaslamaOzellik_ozellik .urunKiyaslamaOzellik_ozellikIcerik table > tbody > tr > td a:hover {
-        background: #fdde00; }
+        background: #DA1021; }
       .kutuOzellikFiltre .urunKiyaslamaOzellik_ozellik .urunKiyaslamaOzellik_ozellikIcerik table > tbody > tr > td a.link_selected {
         background: #231f20;
         color: #fff; }
@@ -9435,9 +9435,9 @@ a.load-more-btn > span {
         margin-top: -5px; }
       .kutuOzellikFiltre .urunKiyaslamaOzellik_ozellik.default .urunKiyaslamaOzellik_ozellikIcerik table > tbody > tr > td a.link_selected {
         color: #000;
-        font-family: "bold"; }
+        font-family: arial; }
         .kutuOzellikFiltre .urunKiyaslamaOzellik_ozellik.default .urunKiyaslamaOzellik_ozellikIcerik table > tbody > tr > td a.link_selected:before {
-          background: #fdde00; }
+          background: #DA1021; }
       .kutuOzellikFiltre .urunKiyaslamaOzellik_ozellik.default .urunKiyaslamaOzellik_ozellikIcerik table > tbody > tr > td a:hover {
         text-decoration: underline; }
 
@@ -9452,7 +9452,7 @@ a.load-more-btn > span {
     padding: 15px 15px 20px 15px;
     display: block;
     text-align: center;
-    font-family: "bold";
+    font-family: arial;
     font-size: 30px; }
   .ems-custom-filtered-body {
     max-width: 750px;
@@ -9627,7 +9627,7 @@ a.load-more-btn > span {
       .ems-mobile-filter-buttons a.btnDefault.btnDefaultMobFilterClose {
         background: #231f20; }
       .ems-mobile-filter-buttons a.btnDefault.btnDefaultMobFilterAction {
-        background: #fdde00;
+        background: #DA1021;
         color: #231f20; }
   .ems-mobile-fixed-popup {
     position: fixed;
@@ -9658,7 +9658,7 @@ a.load-more-btn > span {
       border-radius: 100%; }
   .ems-mobile-sort-popup-body ul li.selected a:before {
     border: none;
-    background: #fdde00; }
+    background: #DA1021; }
   body.sort-popup-ready {
     overflow: hidden; }
   body.sort-popup-animate .ems-mobile-fixed-popup {
@@ -9712,7 +9712,7 @@ a.load-more-btn > span {
       display: block;
       color: #fff;
       font-size: 25px;
-      font-family: "bold";
+      font-family: arial;
       font-style: italic;
       letter-spacing: 5px; }
   .site-footer-menu, .site-footer-social {
@@ -9728,7 +9728,7 @@ a.load-more-btn > span {
       font-size: 15px;
       display: inline-block; }
     .site-footer-menu ul li.title span {
-      font-family: "bold";
+      font-family: arial;
       margin-bottom: 25px; }
     .site-footer-menu ul li a {
       font-family: "regular";
@@ -9773,7 +9773,7 @@ a.load-more-btn > span {
     padding: 65px 10px 75px 10px; }
     .site-footer-dark-cover span {
       font-size: 15px;
-      font-family: "bold";
+      font-family: arial;
       color: #727272;
       display: block;
       padding-bottom: 10px; }
@@ -9833,12 +9833,19 @@ a.load-more-btn > span {
   min-height: 100px; }
   .site-header-wrapper {
     width: 100%;
-    height: 100px;
+    height: 130px;
+    padding-top: 15px;
     background: #fff;
     z-index: 20;
     position: relative; }
   .site-header .ems-container-full-top .ems-cell {
-    float: right; }
+    float: right;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
     .site-header .ems-container-full-top .ems-cell > div {
       display: inline-block;
       vertical-align: top; }
@@ -9846,17 +9853,17 @@ a.load-more-btn > span {
     position: relative;
     border-top: 1px solid #e9e9e9;
     border-bottom: 1px solid #e9e9e9;
-    background: #fff; }
+    background: #eee; }
     .site-header .ems-container-full-bottom .ems-container {
       padding: 9px 10px;
-      background: #fff; }
+      background: #eee; }
     .site-header .ems-container-full-bottom .ems-col {
       display: inline-block;
       vertical-align: middle; }
     .site-header .ems-container-full-bottom .ems-col-1 {
       width: 220px; }
     .site-header .ems-container-full-bottom .ems-col-2 {
-      width: calc(100% - 560px);
+      width: calc(100% - 340px);
       position: inherit; }
       .site-header .ems-container-full-bottom .ems-col-2 .mobile-element-backbtn {
         padding: 14px 10px; }
@@ -9868,7 +9875,7 @@ a.load-more-btn > span {
             font-size: 20px; }
       .site-header .ems-container-full-bottom .ems-col-2 .mobile-element-corporate ul li a {
         position: relative;
-        font-family: "bold";
+        font-family: arial;
         color: #1a1718;
         display: block;
         padding: 18px 30px 18px 50px; }
@@ -9959,7 +9966,7 @@ a.load-more-btn > span {
           -o-transition-delay: .3s;
           transition-delay: .3s; }
         .site-header .mobile-element-fixed-user div a.icon-3:after {
-          background: #fdde00;
+          background: #DA1021;
           -webkit-transition-delay: .2s;
           -o-transition-delay: .2s;
           transition-delay: .2s; }
@@ -9977,7 +9984,7 @@ a.load-more-btn > span {
   left: 0;
   width: 100%;
   z-index: 9;
-  background: rgba(35, 31, 32, 0.95);
+  background: rgba(222, 222, 222, 0.95);
   transition: max-height 333ms cubic-bezier(0.215, 0.61, 0.355, 1);
   -webkit-transition: max-height 333ms cubic-bezier(0.215, 0.61, 0.355, 1);
   -o-transition: max-height 333ms cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -10006,7 +10013,7 @@ a.load-more-btn > span {
   .sub-nav-links > ul {
     width: 33.333%; }
     .sub-nav-links > ul > li > a {
-      font-family: "bold"; }
+      font-family: arial; }
   .sub-nav-banners > ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -10069,16 +10076,18 @@ a.load-more-btn > span {
   display: -ms-flexbox;
   display: -webkit-box;
   display: flex;
-  -webkit-justify-content: space-around;
+  -webkit-justify-content: flex-start;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
   padding-left: 10px;
   padding-right: 10px; }
   .nav-main > ul > li {
     display: inline-block;
-    vertical-align: middle; }
+    vertical-align: middle;
+    margin-right: 20px; }
     .nav-main > ul > li > a {
-      font-family: "bold";
+      font-family: arial;
       letter-spacing: .8px;
       font-size: 15px;
       display: block;
@@ -10088,7 +10097,7 @@ a.load-more-btn > span {
     .nav-main > ul > li.special > a:before {
       content: '\e91a';
       font-family: 'icomoon';
-      color: #fdde00;
+      color: #DA1021;
       font-size: 15px;
       margin-right: 3px; }
     .nav-main > ul > li.sub-menu > a:after {
@@ -10168,7 +10177,7 @@ a.load-more-btn > span {
       .mbHeader > div.mbLogo a img {
         max-width: 130px; }
       .mbHeader > div.mbLogo .mobile-element {
-        font-family: "bold";
+        font-family: arial;
         letter-spacing: 0.2px;
         font-size: 18px;
         color: #221e1f;
@@ -10194,7 +10203,7 @@ a.load-more-btn > span {
       display: inline-block;
       width: 25px;
       height: 25px;
-      background: #fdde00;
+      background: #DA1021;
       border-radius: 100%;
       font-size: 13px;
       line-height: 25px;
@@ -10208,25 +10217,27 @@ body.main-menu-ready .vailMenu {
 
 @media screen and (min-width: 850px) {
   .site-header .ems-container-full-top {
-    max-height: 30px;
+    max-height: 60px;
     transition: max-height 222ms ease;
     -webkit-transition: max-height 222ms ease;
     -o-transition: max-height 222ms ease; }
+    .site-header .ems-container-full-top .logo img {
+      height: 30px; }
   .site-header .ems-container-full-bottom {
     transition: top 222ms ease;
     -webkit-transition: top 222ms ease;
     -o-transition: top 222ms ease;
     position: fixed;
-    top: 30px; }
+    top: 60px; }
   body.sticky-header-ready .site-header .ems-container-full-top {
     max-height: 0;
     overflow: hidden; }
   body.sticky-header-ready .site-header .ems-container-full-bottom {
     top: 0; }
     body.sticky-header-ready .site-header .ems-container-full-bottom .ems-col-2 {
-      width: calc(100% - 420px); }
+      width: calc(100% - 340px); }
     body.sticky-header-ready .site-header .ems-container-full-bottom .ems-col-3 {
-      width: 200px; }
+      width: 340px; }
   body.sticky-header-animate .mobile-element-fixed-user {
     opacity: 1;
     visibility: visible; }
@@ -10408,7 +10419,7 @@ body.ems-logoff .site-header .mobile-element-fixed-user div a.login {
           font-family: 'icomoon';
           content: '\e91a';
           display: inline-block;
-          color: #fdde00;
+          color: #DA1021;
           font-size: 15px;
           margin-left: 5px; }
         .nav-main > ul > li.sub-menu > a:after {
@@ -10447,7 +10458,7 @@ body.ems-logoff .site-header .mobile-element-fixed-user div a.login {
           max-height: 100%;
           overflow: visible; }
           .sub-nav-links > ul > li.selected > ul > li.selected a.activeted {
-            font-family: "bold"; }
+            font-family: arial; }
         .sub-nav-links > ul > li > ul {
           padding-left: 20px;
           max-height: 0;
@@ -10544,7 +10555,7 @@ body.ems-logoff .site-header .mobile-element-fixed-user div a.login {
   .ems-special-title {
     display: block;
     text-align: center;
-    font-family: "bold";
+    font-family: arial;
     font-size: 30px;
     padding-top: 15px;
     padding-bottom: 15px; }
@@ -10560,7 +10571,7 @@ body.ems-logoff .site-header .mobile-element-fixed-user div a.login {
     .ems-mixed-links-inner > span {
       display: block;
       text-align: center;
-      font-family: "bold";
+      font-family: arial;
       font-size: 30px;
       padding: 25px 0; }
   .ems-mixed-links-wrapper {
@@ -10666,7 +10677,7 @@ body.ems-logoff .site-header .mobile-element-fixed-user div a.login {
       content: '';
       width: 50px;
       height: 0;
-      background: #fdde00;
+      background: #DA1021;
       display: block;
       transition: height 0.3s ease;
       -webkit-transition: height 0.3s ease;
@@ -10764,14 +10775,14 @@ body.ems-logoff .site-header .mobile-element-fixed-user div a.login {
     .ems-grid-banner-title span {
       color: #000;
       font-size: 25px;
-      font-family: "bold"; }
+      font-family: arial; }
   .ems-grid-banner-button > span, .ems-grid-banner-button i {
     display: inline-block;
     vertical-align: middle; }
   .ems-grid-banner-button > span {
     color: #000;
     font-size: 15px;
-    font-family: "bold";
+    font-family: arial;
     letter-spacing: 1px; }
   .ems-grid-banner-button i {
     font-size: 11px;
@@ -10881,7 +10892,7 @@ body.ems-logoff .site-header .mobile-element-fixed-user div a.login {
     .ems-banners-text > * {
       color: #fff; }
     .ems-banners-text > div * {
-      font-family: "bold"; }
+      font-family: arial; }
     .ems-banners-text h2, .ems-banners-text h3 {
       margin: 0;
       font-weight: normal; }
@@ -10892,7 +10903,7 @@ body.ems-logoff .site-header .mobile-element-fixed-user div a.login {
         content: '';
         width: 50px;
         height: 4px;
-        background: #fdde00;
+        background: #DA1021;
         display: block; }
     .ems-banners-text h3 {
       margin-top: 20px;
@@ -11049,7 +11060,7 @@ body.ems-logoff .site-header .mobile-element-fixed-user div a.login {
       text-align: center;
       color: #1a1718;
       font-size: 30px;
-      font-family: "bold";
+      font-family: arial;
       margin: 0 0 30px 0; }
     .ems-popular-categories-inner > ul {
       width: 100%; }
@@ -11061,10 +11072,10 @@ body.ems-logoff .site-header .mobile-element-fixed-user div a.login {
           font-weight: normal; }
           .ems-popular-categories-inner > ul > li .lvl-1-title > a {
             letter-spacing: 0.8px;
-            font-family: "bold";
+            font-family: arial;
             font-size: 15px;
             color: #1a1718;
-            border-bottom: 2px solid #fdde00;
+            border-bottom: 2px solid #DA1021;
             display: inline-block;
             padding: 10px;
             margin-bottom: 15px; }
@@ -11085,7 +11096,7 @@ body.ems-logoff .site-header .mobile-element-fixed-user div a.login {
         .ems-popular-categories-inner > ul > li .lvl-2-bold {
           margin-bottom: 10px; }
         .ems-popular-categories-inner > ul > li .lvl-2-bold li a {
-          font-family: "bold"; }
+          font-family: arial; }
         .ems-popular-categories-inner > ul > li:first-child {
           margin-left: 0; }
         .ems-popular-categories-inner > ul > li.static {
@@ -11103,7 +11114,7 @@ body.ems-logoff .site-header .mobile-element-fixed-user div a.login {
       display: inline-block;
       vertical-align: middle; }
     .swiper-container .social-title div a span {
-      font-family: "bold";
+      font-family: arial;
       font-size: 18px;
       letter-spacing: 0.9px;
       color: #231f20; }
@@ -11172,7 +11183,7 @@ body.ems-logoff .site-header .mobile-element-fixed-user div a.login {
           -webkit-transition: all 0.2s ease;
           -o-transition: all 0.2s ease; }
           .swiper-container-blog .swiper-slide .wrapper a .wrapper-description .title {
-            font-family: "bold";
+            font-family: arial;
             color: #000;
             font-size: 20px;
             min-height: 45px;
@@ -11383,7 +11394,7 @@ body.ems-logoff .site-header .mobile-element-fixed-user div a.login {
     padding-left: 10px;
     padding-right: 10px; }
     .ems-pay-info .step p {
-      font-family: "bold"; }
+      font-family: arial; }
       .ems-pay-info .step p:before {
         margin-left: auto;
         margin-right: auto; }
@@ -11413,7 +11424,7 @@ body.ems-logoff .site-header .mobile-element-fixed-user div a.login {
     cursor: pointer;
     background: none;
     letter-spacing: .9px;
-    font-family: "bold";
+    font-family: arial;
     color: #231f20;
     font-size: 13px;
     border: none;
@@ -11435,7 +11446,7 @@ body.ems-logoff .site-header .mobile-element-fixed-user div a.login {
     top: 30px;
     left: 5px;
     z-index: 10;
-    background: rgba(35, 31, 32, 0.95);
+    background: rgba(222, 222, 222, 0.95);
     width: 110px;
     padding: 10px 10px; }
     .mod-lang .sub li a {
@@ -11450,7 +11461,7 @@ body.ems-logoff .site-header .mobile-element-fixed-user div a.login {
         .mod-lang .sub li a span b {
           display: inline-block !important;
           color: #fff;
-          font-family: "bold";
+          font-family: arial;
           font-size: 13px;
           font-weight: normal; }
     .mod-lang .sub li:first-child a {
@@ -11478,7 +11489,7 @@ body.ems-logoff .site-header .mobile-element-fixed-user div a.login {
 .ems-login-box .ems-signup-header span,
 .ems-login-box .ems-login-header span {
   font-size: 15px;
-  font-family: "bold";
+  font-family: arial;
   display: block;
   padding-bottom: 30px; }
 
@@ -11524,7 +11535,7 @@ body.ems-logoff .site-header .mobile-element-fixed-user div a.login {
           padding: 10px;
           font-family: "regular"; }
           .ems-page-default .ems-login .ems-form-inner .ems-field .btn-login-page a u, .ems-page-default .ems-signup .ems-form-inner .ems-field .btn-login-page a u {
-            font-family: "bold";
+            font-family: arial;
             text-decoration: underline; }
   .ems-login-box .ems-signup-header span,
   .ems-login-box .ems-login-header span {
@@ -11570,7 +11581,7 @@ body.ems-logoff .site-header .mobile-element-fixed-user div a.login {
     width: 100%;
     text-align: left; }
     .ems-page-content-text .bold {
-      font-family: "bold"; }
+      font-family: arial; }
     .ems-page-content-text .content-table {
       width: 48%; }
       .ems-page-content-text .content-table .katBaslik h1 {
@@ -11629,7 +11640,7 @@ body.ems-logoff .site-header .mobile-element-fixed-user div a.login {
     font-size: 20px;
     padding-top: 20px;
     padding-bottom: 10px;
-    font-family: "bold";
+    font-family: arial;
     color: #464646; }
   .magazalarimiz .magazaAdres .mLink {
     position: absolute;
@@ -11736,12 +11747,12 @@ body.ems-logoff .site-header .mobile-element-fixed-user div a.login {
     margin-top: -4px; }
 
 .ems-page-member .member-menu > ul > li.selected a {
-  font-family: "bold";
+  font-family: arial;
   color: #4c4c4c; }
   .ems-page-member .member-menu > ul > li.selected a:before {
     width: 13px;
     height: 13px;
-    background: #fdde00;
+    background: #DA1021;
     margin-top: -6px;
     left: 0; }
 
@@ -11766,12 +11777,12 @@ body.ems-logoff .site-header .mobile-element-fixed-user div a.login {
       top: 50%;
       margin-top: -4px; }
   .ems-page-member .member-menu > ul div.lvl2 ul li.selected a {
-    font-family: "bold";
+    font-family: arial;
     color: #4c4c4c; }
     .ems-page-member .member-menu > ul div.lvl2 ul li.selected a:before {
       width: 13px;
       height: 13px;
-      background: #fdde00;
+      background: #DA1021;
       margin-top: -6px;
       left: 0; }
 
@@ -11802,7 +11813,7 @@ body.ems-logoff .site-header .mobile-element-fixed-user div a.login {
   padding: 15px 0 100px 60px; }
   .ems-page .sprContentHolder h5 {
     font-size: 15px;
-    font-family: "bold";
+    font-family: arial;
     text-transform: uppercase; }
   .ems-page .sprContentHolder .page-top-title {
     margin-bottom: 20px; }
@@ -11835,7 +11846,7 @@ body.ems-logoff .site-header .mobile-element-fixed-user div a.login {
           color: #727272;
           border-bottom: 1px solid #ededed; }
           .ems-page .sprContentHolder .gridSiparis.v2 .rowSipHolder > div.sipNo {
-            font-family: "bold";
+            font-family: arial;
             font-size: 15px;
             color: #231f20; }
           .ems-page .sprContentHolder .gridSiparis.v2 .rowSipHolder > div.teslimatDurum {
@@ -11975,7 +11986,7 @@ body.ems-logoff .site-header .mobile-element-fixed-user div a.login {
         text-align: center; }
       .ems-page .sprContentHolder .gridSiparis.v2 .subGrid .rowFooter .toplam {
         padding: 15px;
-        font-family: "bold";
+        font-family: arial;
         font-size: 16px;
         width: auto !important;
         float: none;
@@ -12053,7 +12064,7 @@ body.sip-ajx-loading .sprContentHolder.ems-loaded:before {
         vertical-align: top; }
         .pageSitemap .urunKategoriListe > ul > li > a {
           position: relative;
-          font-family: "bold";
+          font-family: arial;
           font-size: 20px;
           display: block; }
           .pageSitemap .urunKategoriListe > ul > li > a:after {
@@ -12063,7 +12074,7 @@ body.sip-ajx-loading .sprContentHolder.ems-loaded:before {
             float: right;
             color: #ffe000; }
         .pageSitemap .urunKategoriListe > ul > li > ul > li > a {
-          font-family: "bold"; }
+          font-family: arial; }
         .pageSitemap .urunKategoriListe > ul > li > ul > li > ul {
           padding-left: 10px; }
           .pageSitemap .urunKategoriListe > ul > li > ul > li > ul > li > a {
@@ -12191,7 +12202,7 @@ body.sip-ajx-loading .sprContentHolder.ems-loaded:before {
     .ems-page-member .sStylerMainWrp.member-menu-selecbox.sStylerWrp_select .sStylerWrp {
       border: none;
       background: #1a1718;
-      font-family: "bold";
+      font-family: arial;
       color: #fff;
       font-size: 18px;
       padding: 15px 20px;
@@ -12242,12 +12253,12 @@ body.sip-ajx-loading .sprContentHolder.ems-loaded:before {
           top: 50%;
           margin-top: -4px; }
       .ems-page-member .member-menu > ul > li.selected a {
-        font-family: "bold";
+        font-family: arial;
         color: #4c4c4c; }
         .ems-page-member .member-menu > ul > li.selected a:before {
           width: 13px;
           height: 13px;
-          background: #fdde00;
+          background: #DA1021;
           margin-top: -6px;
           left: 0; }
     .ems-page-member .ems-col-left, .ems-page-member .ems-col-full {
@@ -12366,8 +12377,7 @@ body.sip-ajx-loading .sprContentHolder.ems-loaded:before {
 
 .mod-mini-cart-header .ems-cart-info {
   cursor: pointer;
-  background: #fdde00;
-  font-family: "bold";
+  font-family: arial;
   font-size: 13px;
   letter-spacing: .9px;
   padding: 8px 20px;
@@ -12377,11 +12387,21 @@ body.sip-ajx-loading .sprContentHolder.ems-loaded:before {
   transition: all 333ms ease;
   -webkit-transition: all 333ms ease;
   -o-transition: all 333ms ease; }
-  .mod-mini-cart-header .ems-cart-info span i.icon-ico_basket {
-    display: none; }
+  .mod-mini-cart-header .ems-cart-info span[id$="lbfKUTU_SEPET"] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .mod-mini-cart-header .ems-cart-info span[id$="lbfKUTU_SEPET"] i {
+      font-size: 20px;
+      margin-right: 5px;
+      font-weight: bold; }
   .mod-mini-cart-header .ems-cart-info span[id$="lbfKUTU_URUN"] {
     display: none; }
   .mod-mini-cart-header .ems-cart-info span[id$="lblUrunAdet"] {
+    display: none;
     padding-left: 3px; }
     .mod-mini-cart-header .ems-cart-info span[id$="lblUrunAdet"]:before, .mod-mini-cart-header .ems-cart-info span[id$="lblUrunAdet"]:after {
       position: relative;
@@ -12392,20 +12412,21 @@ body.sip-ajx-loading .sprContentHolder.ems-loaded:before {
       content: ")"; }
 
 .mod-mini-cart-body {
-  background: rgba(0, 0, 0, 0.4);
-  width: 400px;
+  background: rgba(222, 222, 222, 0.95);
+  width: 350px;
   position: absolute;
   right: 0;
+  top: 45px;
   z-index: 10;
   padding: 30px 30px 20px 30px;
   display: none; }
   .mod-mini-cart-body span.kutuSepet_urunYok .cart-empty-text {
     margin: 0;
-    color: #fff;
+    color: #1a1718;
     font-size: 25px;
     letter-spacing: 1.7px;
     text-align: center;
-    font-family: "bold"; }
+    font-family: arial; }
   .mod-mini-cart-body span.kutuSepet_urunYok .wrapper {
     padding: 80px 0 60px 0; }
   .mod-mini-cart-body .ems-col-total {
@@ -12417,7 +12438,7 @@ body.sip-ajx-loading .sprContentHolder.ems-loaded:before {
       display: inline-block;
       vertical-align: top;
       color: #fff;
-      font-family: "bold";
+      font-family: arial;
       font-size: 18px; }
       .mod-mini-cart-body .ems-col-total > span s {
         display: none; }
@@ -12437,7 +12458,9 @@ body.sip-ajx-loading .sprContentHolder.ems-loaded:before {
 .mod-mini-cart-cover {
   width: 100%;
   height: 170px;
-  background-size: 100% 100% !important; }
+  background-size: 100% 100% !important;
+  display: none;
+  background: none; }
   .mod-mini-cart-cover .mini-cart-text {
     position: relative;
     top: 50%;
@@ -12455,7 +12478,7 @@ body.sip-ajx-loading .sprContentHolder.ems-loaded:before {
       margin: 10px 0;
       font-size: 35px;
       color: #fff;
-      font-family: "bold";
+      font-family: arial;
       line-height: 1; }
     .mod-mini-cart-cover .mini-cart-text a {
       display: inline-block;
@@ -12516,7 +12539,7 @@ body.sip-ajx-loading .sprContentHolder.ems-loaded:before {
   vertical-align: middle; }
 
 .mod-mini-cart .kutuSepet_icerik .ems-col .cart-prd-price {
-  font-family: "bold";
+  font-family: arial;
   font-size: 18px; }
   .mod-mini-cart .kutuSepet_icerik .ems-col .cart-prd-price:before {
     content: 't';
@@ -12551,7 +12574,7 @@ body.sip-ajx-loading .sprContentHolder.ems-loaded:before {
     min-width: 50px;
     text-align: center;
     padding: 3px 3px 3px 3px;
-    font-family: "bold";
+    font-family: arial;
     font-size: 15px; }
   .mod-mini-cart .kutuSepet_icerik .ems-col .iControl a, .mod-mini-cart .kutuSepet_icerik .ems-col .iControl span {
     display: inline-block;
@@ -12569,10 +12592,6 @@ body.basket-empty .mod-mini-cart-body {
 
 body.basket-full .mod-mini-cart-body .ems-col.ems-col-total, body.basket-full .mod-mini-cart-body .ems-col.ems-col-link {
   display: block; }
-
-body.mini-cart-ready .mod-mini-cart-header .ems-cart-info {
-  background: rgba(0, 0, 0, 0.4);
-  color: #fff; }
 
 body.mini-cart-ready .mod-mini-cart-body {
   display: block;
@@ -12592,8 +12611,8 @@ body.mini-cart-ready .vailCart {
 
 .mod-mini-login-header {
   cursor: pointer;
-  background: #ededed;
-  font-family: "bold";
+  background: #fff;
+  font-family: arial;
   font-size: 13px;
   letter-spacing: .9px;
   padding: 8px 20px;
@@ -12603,6 +12622,17 @@ body.mini-cart-ready .vailCart {
   transition: all 333ms ease;
   -webkit-transition: all 333ms ease;
   -o-transition: all 333ms ease; }
+  .mod-mini-login-header > span[id$="lbfkutuUyeGiris1"] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .mod-mini-login-header > span[id$="lbfkutuUyeGiris1"] i {
+      font-size: 20px;
+      margin-right: 5px;
+      font-weight: bold; }
   .mod-mini-login-header > span[id$="lbhKUTU_HESABIM"] {
     display: inline-block;
     max-width: 130px;
@@ -12635,7 +12665,7 @@ body.mini-cart-ready .vailCart {
     font-size: 13px;
     letter-spacing: .9px;
     color: #fff;
-    font-family: "bold";
+    font-family: arial;
     padding-bottom: 20px;
     text-align: center;
     display: block; }
@@ -12647,8 +12677,8 @@ body.mini-cart-ready .vailCart {
     padding: 20px 0 20px 0;
     text-align: center; }
   .mod-mini-login-body .sub .ems-form-inner .ems-field .ems-form-obj input {
-    background: transparent;
-    color: #fff; }
+    background: #fff;
+    color: #1a1718; }
   .mod-mini-login-body .sub .ems-form-inner .ems-field #lnkSifremiUnuttum {
     padding: 0 0 0 5px;
     display: inline-block;
@@ -12669,12 +12699,14 @@ body.mini-cart-ready .vailCart {
       display: block;
       background: none;
       padding: 13px 5px 13px 5px;
-      background: #f05201; }
+      background: #fff;
+      border: 1px solid #DA1021;
+      color: #1a1718; }
       .mod-mini-login-body .sub .ems-form-inner .ems-field .ems-new-login span[id$="lbflnkUyeOlmak"] a.lnkUyeOlmak:hover {
-        background: #D4500D; }
+        background: #DA1021;
+        color: #fff; }
       .mod-mini-login-body .sub .ems-form-inner .ems-field .ems-new-login span[id$="lbflnkUyeOlmak"] a.lnkUyeOlmak span {
-        color: #fff;
-        font-family: "bold";
+        font-family: arial;
         font-size: 15px;
         letter-spacing: .9px; }
       @media screen and (min-width: 850px) {
@@ -12685,7 +12717,7 @@ body.mini-cart-ready .vailCart {
           padding-top: 9px;
           padding-bottom: 10px; } }
   .mod-mini-login-body .sub .ems-form-inner .ems-field .btnKutuLogin {
-    background: #fdde00; }
+    background: #DA1021; }
   .mod-mini-login-body .sub.login {
     width: 100%;
     padding: 20px; }
@@ -12705,27 +12737,33 @@ body.mini-cart-ready .vailCart {
 
 @media screen and (min-width: 850px) {
   .mod-mini-login-body .sub {
-    background: rgba(0, 0, 0, 0.4);
-    width: 630px;
-    padding: 80px 20px 20px; }
+    background: rgba(222, 222, 222, 0.95);
+    width: 350px;
+    padding: 30px 20px;
+    top: 45px; }
     .mod-mini-login-body .sub .sub-title {
       text-align: left;
-      font-size: 17px; }
+      font-size: 17px;
+      color: #1a1718; }
     .mod-mini-login-body .sub .ems-form-inner {
       width: 100%;
-      display: table; }
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
       .mod-mini-login-body .sub .ems-form-inner .ems-form-left,
       .mod-mini-login-body .sub .ems-form-inner .seperator,
       .mod-mini-login-body .sub .ems-form-inner .ems-form-right {
         display: table-cell;
         vertical-align: top; }
       .mod-mini-login-body .sub .ems-form-inner .ems-form-left {
-        width: 50%; }
+        width: 100%; }
       .mod-mini-login-body .sub .ems-form-inner .seperator {
-        width: 15%;
+        width: 100%;
         padding-top: 15px; }
       .mod-mini-login-body .sub .ems-form-inner .ems-form-right {
-        width: 35%; }
+        width: 100%; }
       .mod-mini-login-body .sub .ems-form-inner .ems-field {
         display: table;
         width: 100%; }
@@ -12737,7 +12775,7 @@ body.mini-cart-ready .vailCart {
         .mod-mini-login-body .sub .ems-form-inner .ems-field .ems-form-label {
           min-width: inherit;
           float: inherit;
-          color: #fff;
+          color: #1a1718;
           font-size: 14px;
           width: 25%; }
         .mod-mini-login-body .sub .ems-form-inner .ems-field .ems-form-obj {
@@ -12745,17 +12783,15 @@ body.mini-cart-ready .vailCart {
           margin-bottom: 0;
           margin-left: 0; }
         .mod-mini-login-body .sub .ems-form-inner .ems-field .btnKutuLogin {
-          float: right;
           padding-top: 10px;
           padding-bottom: 10px;
           width: calc(100% - 25%);
-          color: #1a1718; }
+          color: #fff; }
         .mod-mini-login-body .sub .ems-form-inner .ems-field #lnkSifremiUnuttum {
           width: calc(100% - 25%);
-          float: right;
           padding-left: 0; }
         .mod-mini-login-body .sub .ems-form-inner .ems-field #lnkSifremiUnuttum span {
-          color: #fff; }
+          color: #1a1718; }
         .mod-mini-login-body .sub .ems-form-inner .ems-field-submit a.btnFacebookLoginKutu {
           margin-top: 15px;
           padding-top: 10px;
@@ -12767,7 +12803,8 @@ body.mini-login-ready .mod-mini-login-header {
 
 @media screen and (min-width: 850px) {
   body.mini-login-ready .mod-mini-login-header {
-    background: rgba(0, 0, 0, 0.4); } }
+    background: none;
+    color: black; } }
 
 body.mini-login-ready .vailLogin {
   opacity: .3;
@@ -12805,7 +12842,7 @@ body.ems-login.mini-login-ready .mod-mini-login-body .sub.login {
         float: none;
         min-width: 100%;
         color: #1a1718;
-        font-family: "bold";
+        font-family: arial;
         font-size: 17px; }
       .mod-mini-login-body .sub .ems-form-inner .ems-field .ems-form-obj {
         margin-left: 0; }
@@ -12816,10 +12853,10 @@ body.ems-login.mini-login-ready .mod-mini-login-body .sub.login {
       .mod-mini-login-body .sub .ems-form-inner .ems-field .seperator span {
         font-size: 17px;
         color: #1a1718;
-        font-family: "bold"; }
+        font-family: arial; }
       .mod-mini-login-body .sub .ems-form-inner .ems-field #lnkSifremiUnuttum span {
         color: #1a1718;
-        font-family: "bold";
+        font-family: arial;
         font-size: 17px; }
       .mod-mini-login-body .sub .ems-form-inner .ems-field .ems-new-login span[id$="lbflnkUyeOlmak"] {
         display: block; }
@@ -12828,7 +12865,7 @@ body.ems-login.mini-login-ready .mod-mini-login-body .sub.login {
         padding-top: 18px;
         padding-bottom: 17px; }
       .mod-mini-login-body .sub .ems-form-inner .ems-field .btnKutuLogin {
-        color: #1a1718; }
+        color: #fff; }
     .mod-mini-login-body .sub.login {
       width: 100%;
       padding: 0; }
@@ -12859,7 +12896,7 @@ body.ems-login.mini-login-ready .mod-mini-login-body .sub.login {
       .mod-mini-login-body .sub .ems-user-pages > div * {
         color: #1a1718;
         font-size: 17px;
-        font-family: "bold"; }
+        font-family: arial; }
       .mod-mini-login-body .sub .ems-user-pages > div {
         padding: 0 40px; }
         .mod-mini-login-body .sub .ems-user-pages > div a {
@@ -12955,14 +12992,14 @@ body.ems-login.mini-login-ready .mod-mini-login-body .sub.login {
             padding: 25px 75px 20px 20px;
             background: #f5f5f5; }
             .ems-small-banner > div > a > div div.content span {
-              font-family: "bold";
+              font-family: arial;
               font-size: 20px;
               display: block;
               max-height: 53px;
               overflow: hidden; }
               .ems-small-banner > div > a > div div.content span b {
                 font-weight: normal;
-                font-family: "bold";
+                font-family: arial;
                 font-size: 20px; }
               .ems-small-banner > div > a > div div.content span:before {
                 content: '';
@@ -13074,7 +13111,7 @@ body.ems-login.mini-login-ready .mod-mini-login-body .sub.login {
 
 .ems-prd-detail .ems-prd-name h1.emos_H1 {
   font-size: 35px;
-  font-family: "bold";
+  font-family: arial;
   color: #231f20;
   margin: 10px 80px 10px 0;
   display: block;
@@ -13282,7 +13319,7 @@ body.ems-login.mini-login-ready .mod-mini-login-body .sub.login {
     text-align: center;
     display: none; }
     .ems-prd-detail .ems-prd-icons-alternate > span {
-      font-family: "bold";
+      font-family: arial;
       font-size: 18px;
       color: #4970BD; }
   .ems-prd-detail .ems-prd-icons .urunDetay_KazancOran b {
@@ -13290,7 +13327,7 @@ body.ems-login.mini-login-ready .mod-mini-login-body .sub.login {
     top: 10px;
     left: 5px;
     z-index: 1;
-    font-family: "bold";
+    font-family: arial;
     color: #fff;
     font-size: 12px;
     font-weight: normal; }
@@ -13336,7 +13373,7 @@ body.ems-login.mini-login-ready .mod-mini-login-body .sub.login {
     text-align: center;
     margin-left: -1px;
     margin-bottom: -1px;
-    font-family: "bold";
+    font-family: arial;
     overflow: hidden; }
     .ems-prd-detail .ems-prd-size .dropdown-options a:after {
       content: '';
@@ -13623,7 +13660,7 @@ body.ems-login.mini-login-ready .mod-mini-login-body .sub.login {
   .ems-prd-detail-template > ul > li .text h2 {
     font-size: 50px;
     margin: 0;
-    font-family: "bold";
+    font-family: arial;
     line-height: 1; }
   .ems-prd-detail-template > ul > li .text p, .ems-prd-detail-template > ul > li .text ul li {
     color: #191e23;
@@ -13756,7 +13793,7 @@ body.ems-login.mini-login-ready .mod-mini-login-body .sub.login {
       font-size: 15px;
       color: #a5a5a5; }
     .ems-prd-detail .ems-prd-price-selling {
-      font-family: "bold";
+      font-family: arial;
       font-size: 20px;
       color: #fff; }
     .ems-prd-detail .ems-prd-price-right {
@@ -13969,7 +14006,7 @@ body.ems-login.mini-login-ready .mod-mini-login-body .sub.login {
           height: 60px;
           border: none;
           line-height: 50px;
-          font-family: "bold";
+          font-family: arial;
           color: #fff;
           font-size: 20px;
           text-align: left;
@@ -14197,9 +14234,9 @@ body.ems-page-active-discount-list .ems-page-list-discount {
         padding: 13px 15px 12px 15px;
         font-size: 14px; }
         .ems-prd-list-sort-desktop ul li a:hover {
-          background: #fdde00; }
+          background: #DA1021; }
       .ems-prd-list-sort-desktop ul li.selected a {
-        background: #fdde00; }
+        background: #DA1021; }
 
 .ems-prd-list-sort, .ems-prd-list-stock {
   display: none; }
@@ -14214,7 +14251,7 @@ body.ems-page-active-discount-list .ems-page-list-discount {
     min-height: 40px;
     line-height: 30px;
     padding-left: 25px;
-    font-family: "bold";
+    font-family: arial;
     font-size: 14px;
     letter-spacing: 1.1px; }
     .ems-prd-list-view > span:before {
@@ -14244,9 +14281,9 @@ body.ems-page-active-discount-list .ems-page-list-discount {
       display: block;
       text-align: center; }
       .ems-prd-list-view ul li a:hover {
-        color: #fdde00; }
+        color: #DA1021; }
   .ems-prd-list-view.opened > span {
-    background: #fdde00; }
+    background: #DA1021; }
   .ems-prd-list-view.opened ul {
     display: block; }
 
@@ -14273,7 +14310,7 @@ body.ems-page-active-discount-list .ems-page-list-discount {
         vertical-align: middle;
         letter-spacing: 0.9px;
         color: #fff;
-        font-family: "bold";
+        font-family: arial;
         padding: 7px 0;
         width: 30px;
         height: 30px;
@@ -14281,7 +14318,7 @@ body.ems-page-active-discount-list .ems-page-list-discount {
         margin: 32px .5%;
         text-align: center; }
       .ems-prd-list-paging-bottom table tbody tr td .urunPaging_pageNavigation > span span.paging {
-        background: #fdde00;
+        background: #DA1021;
         color: #231f20; }
       .ems-prd-list-paging-bottom table tbody tr td .urunPaging_pageNavigation:empty {
         display: none; }
@@ -14308,7 +14345,7 @@ body.ems-page-active-discount-list .ems-page-list-discount {
         .ems-prd-list-paging-bottom table tbody tr td .urunPaging_pageNavigation a.tumunuGoster span {
           color: #fff;
           letter-spacing: 0.9px;
-          font-family: "bold";
+          font-family: arial;
           text-decoration: underline;
           transition: all 0.2s ease;
           -webkit-transition: all 0.2s ease;
@@ -14467,7 +14504,7 @@ ul.emosInfinite .ems-prd {
             font-size: 15px;
             padding: 10px 0; }
           ul.emosInfinite .ems-prd-alternate .ems-prd-inner a .text .bold-title {
-            font-family: "bold";
+            font-family: arial;
             letter-spacing: .5px;
             font-size: 50px;
             font-size: calc(12px + 2vw); }
@@ -14498,8 +14535,8 @@ ul.emosInfinite .ems-prd {
         color: #fff;
         margin-right: 1%; }
       ul.emosInfinite .ems-prd.spr4 .ems-prd-type span.multi, ul.emosInfinite .ems-prd.spr7 .ems-prd-type span.multi {
-        font-family: "bold";
-        color: #fdde00;
+        font-family: arial;
+        color: #DA1021;
         margin-left: 1%; }
   ul.emosInfinite .ems-prd.spr4 .ems-prd-image > a:before, ul.emosInfinite .ems-prd.spr7 .ems-prd-image > a:before {
     content: '';
@@ -14538,7 +14575,7 @@ ul.emosInfinite .ems-prd {
         width: auto;
         height: auto; }
         ul.emosInfinite .ems-prd-icons > div.urunListe_yeniUrun span {
-          font-family: "bold";
+          font-family: arial;
           font-size: 18px;
           color: #4970BD; }
           ul.emosInfinite .ems-prd-icons > div.urunListe_yeniUrun span:empty {
@@ -14551,7 +14588,7 @@ ul.emosInfinite .ems-prd {
           top: 10px;
           left: 5px;
           z-index: 1;
-          font-family: "bold";
+          font-family: arial;
           color: #fff;
           font-size: 12px;
           font-weight: normal; }
@@ -14711,7 +14748,7 @@ ul.emosInfinite .ems-prd {
       ul.emosInfinite .ems-prd-price > span > div, ul.emosInfinite .ems-prd-price > span.urunListe_urunStokUyari, ul.emosInfinite .ems-prd-price > div > div, ul.emosInfinite .ems-prd-price > div.urunListe_urunStokUyari {
         font-size: 18px;
         padding: 5px;
-        font-family: "bold"; }
+        font-family: arial; }
       ul.emosInfinite .ems-prd-price > span.urunListe_urunStokUyari span:before, ul.emosInfinite .ems-prd-price > div.urunListe_urunStokUyari span:before {
         content: '';
         width: 5px;
@@ -14760,7 +14797,7 @@ ul.emosInfinite .ems-prd.no-color .ems-prd-content {
   .ems-cat-description-inner h1, .ems-cat-description-inner h2 {
     margin: 0 0 10px 0;
     font-size: 17px;
-    font-family: "bold"; }
+    font-family: arial; }
   .ems-cat-description-inner p {
     margin: 0;
     line-height: 26px;
@@ -14778,7 +14815,7 @@ ul.emosInfinite .ems-prd.no-color .ems-prd-content {
       text-align: center; }
       .product-empty > .ems-container > div h1, .product-empty > .ems-container > div h2, .page-empty > .ems-container > div h1, .page-empty > .ems-container > div h2 {
         font-weight: normal;
-        font-family: "bold";
+        font-family: arial;
         font-size: 25px;
         margin: 0; }
         .product-empty > .ems-container > div h1.big-title, .product-empty > .ems-container > div h2.big-title, .page-empty > .ems-container > div h1.big-title, .page-empty > .ems-container > div h2.big-title {
@@ -14821,7 +14858,7 @@ ul.emosInfinite .ems-prd.no-color .ems-prd-content {
     .no-prd .icon-bag-close .images {
       max-width: 150px; }
   .no-prd p {
-    font-family: "bold";
+    font-family: arial;
     font-size: 30px; }
     .no-prd p .gray {
       opacity: .6;
@@ -14965,7 +15002,7 @@ ul.emosInfinite .ems-prd.no-color .ems-prd-content {
       text-align: center;
       padding: 17px 0; }
       .mobile-element-sort-btns > a span {
-        font-family: "bold";
+        font-family: arial;
         letter-spacing: .2px; }
       .mobile-element-sort-btns > a.btn-filter {
         border-right: 1px solid #ededed; }
@@ -14978,7 +15015,7 @@ ul.emosInfinite .ems-prd.no-color .ems-prd-content {
     position: relative; }
     .ems-mobile-filter-text span {
       font-size: 20px;
-      font-family: "bold";
+      font-family: arial;
       line-height: 1; }
     .ems-mobile-filter-btn {
       position: absolute;
@@ -15041,7 +15078,7 @@ ul.emosInfinite .ems-prd.no-color .ems-prd-content {
         bottom: 0;
         letter-spacing: .9px;
         padding: 17px 10px;
-        font-family: "bold";
+        font-family: arial;
         color: #231f20; }
         .ems-prd-list-paging-bottom table tbody tr td .urunPaging_pageNavigation > a.paging span {
           display: none; }
@@ -15065,7 +15102,7 @@ ul.emosInfinite .ems-prd.no-color .ems-prd-content {
           transform: rotate(180deg); }
       .ems-prd-list-paging-bottom table tbody tr td .urunPaging_pageNavigation > a[id$="lnkNext"] {
         right: 0;
-        background: #fdde00; }
+        background: #DA1021; }
         .ems-prd-list-paging-bottom table tbody tr td .urunPaging_pageNavigation > a[id$="lnkNext"]:after {
           content: 'SONRAKİ'; }
         .ems-prd-list-paging-bottom table tbody tr td .urunPaging_pageNavigation > a[id$="lnkNext"] .effect-arrow {
@@ -15229,6 +15266,7 @@ ul.emosInfinite .ems-prd.no-color .ems-prd-content {
       border-radius: 3px;
       background: #eeeeee;
       border: none;
+      border: 1px solid #231f20;
       height: 40px;
       line-height: 30px; }
     .mod-mini-search .ems-form .ems-field.submit {
@@ -15267,7 +15305,7 @@ ul.emosInfinite .ems-prd.no-color .ems-prd-content {
       color: #231f20; }
 
 .searchSuggestDiv {
-  background: rgba(35, 31, 32, 0.95);
+  background: rgba(222, 222, 222, 0.95);
   top: 55px;
   right: 0;
   width: 720px;
@@ -15367,7 +15405,7 @@ ul.emosInfinite .ems-prd.no-color .ems-prd-content {
             .searchSuggestDiv .searchSuggestDivHolder .cat .sHolder > div .fullCatLink.emos_invisible > a:first-child {
               letter-spacing: 1.9px;
               text-transform: uppercase;
-              font-family: "bold"; }
+              font-family: arial; }
           .searchSuggestDiv .searchSuggestDivHolder .cat .sHolder > div .fullCatLink.emos_invisible > span {
             padding: 0 2px 0 2px; }
         .searchSuggestDiv .searchSuggestDivHolder .cat .sHolder > div > img {
@@ -15525,7 +15563,7 @@ body.search-keyup .vailSearch {
             font-size: 14px; }
           .searchSuggestDiv .searchSuggestDivHolder .cat .sHolder > div .fullCatLink.emos_invisible > a {
             letter-spacing: 1.9px;
-            font-family: "bold"; }
+            font-family: arial; }
       .searchSuggestDiv .searchSuggestDivHolder .prd {
         -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
@@ -15542,7 +15580,7 @@ body.search-keyup .vailSearch {
           .searchSuggestDiv .searchSuggestDivHolder .prd .sHolder .suggest_link table tbody tr td > span, .searchSuggestDiv .searchSuggestDivHolder .prd .sHolder .suggest_link table tbody tr td > span b, .searchSuggestDiv .searchSuggestDivHolder .prd .sHolder .suggest_link_over table tbody tr td > span, .searchSuggestDiv .searchSuggestDivHolder .prd .sHolder .suggest_link_over table tbody tr td > span b {
             color: #000;
             letter-spacing: 1.9px;
-            font-family: "bold"; }
+            font-family: arial; }
           .searchSuggestDiv .searchSuggestDivHolder .prd .sHolder .suggest_link table tbody tr td:nth-child(2), .searchSuggestDiv .searchSuggestDivHolder .prd .sHolder .suggest_link_over table tbody tr td:nth-child(2) {
             width: 85%; }
           .searchSuggestDiv .searchSuggestDivHolder .prd .sHolder .suggest_link table tbody tr td:nth-child(4), .searchSuggestDiv .searchSuggestDivHolder .prd .sHolder .suggest_link_over table tbody tr td:nth-child(4) {
@@ -15591,7 +15629,7 @@ body.search-keyup .vailSearch {
     font-size: 30px;
     text-align: center;
     font-weight: normal;
-    font-family: "bold";
+    font-family: arial;
     color: #1a1718;
     margin: 20px 0 25px 0; }
   .widget-free-mode .swiper-button-prev,
@@ -15723,7 +15761,7 @@ body.search-keyup .vailSearch {
     font-size: 36px;
     text-align: center;
     padding: 35px 0;
-    font-family: "bold";
+    font-family: arial;
     display: block; }
   .markaSayfasi .col1 a {
     font-size: 14px;
@@ -15771,7 +15809,7 @@ body.search-keyup .vailSearch {
             text-align: center;
             border-radius: 3px; }
             .markaSayfasi .col2 .markaAlfabe ul li a:hover {
-              background: #fdde00;
+              background: #DA1021;
               color: #231f20; }
   .markaSayfasi .markaLogolar {
     display: inline-block;
@@ -15957,7 +15995,7 @@ body.search-keyup .vailSearch {
   bottom: 200px;
   font-size: 35px;
   max-width: 250px;
-  font-family: "bold";
+  font-family: arial;
   font-weight: normal;
   margin: 0;
   z-index: 9; }
@@ -15984,9 +16022,9 @@ body.search-keyup .vailSearch {
 
 .parallax .parallax-link {
   display: none;
-  background: #fdde00;
+  background: #DA1021;
   color: #231f20;
-  font-family: "bold";
+  font-family: arial;
   letter-spacing: 1px; }
 
 #parallax-wrap {
@@ -16040,31 +16078,31 @@ body.search-keyup .vailSearch {
   from {
     color: #FF8900; }
   to {
-    color: #fdde00; } }
+    color: #DA1021; } }
 
 @-moz-keyframes color_change {
   from {
     color: #FF8900; }
   to {
-    color: #fdde00; } }
+    color: #DA1021; } }
 
 @-ms-keyframes color_change {
   from {
     color: #FF8900; }
   to {
-    color: #fdde00; } }
+    color: #DA1021; } }
 
 @-o-keyframes color_change {
   from {
     color: #FF8900; }
   to {
-    color: #fdde00; } }
+    color: #DA1021; } }
 
 @keyframes color_change {
   from {
     color: #FF8900; }
   to {
-    color: #fdde00; } }
+    color: #DA1021; } }
 
 .parallax .bg3 {
   width: 1140px;
@@ -16125,7 +16163,7 @@ body.search-keyup .vailSearch {
   top: 50px;
   font-size: 30px;
   max-width: 90%;
-  font-family: "bold";
+  font-family: arial;
   font-weight: normal;
   margin: 0 auto;
   text-align: center;
@@ -16158,7 +16196,7 @@ body.search-keyup .vailSearch {
   width: 100%;
   max-width: 225px;
   margin: 0 auto;
-  font-family: "bold";
+  font-family: arial;
   background: #fdde00;
   text-align: center;
   font-size: 15px;

@@ -1,7 +1,7 @@
 .mod-mini-login{
     &-header{
         cursor: pointer;
-        background: $edGray;
+        background: #fff;
         font-family: $bold;
         font-size: 13px;
         letter-spacing: .9px;
@@ -10,6 +10,15 @@
         text-align: center;
         min-height: 30px;
         @include transition(all 333ms ease);
+        > span[id$="lbfkutuUyeGiris1"]{
+            display: flex;
+            align-items: center;
+            i{
+                font-size:20px;
+                margin-right:5px;
+                font-weight: bold;
+            }
+        }
         > span[id$="lbhKUTU_HESABIM"]{
             display: inline-block;
             max-width: 130px;
@@ -55,8 +64,8 @@
                     .ems-field{
                         .ems-form-obj{
                             input{
-                                background: transparent;
-                                color: #fff;
+                                background:#fff;
+                                color: $darkBlack;
                             }
                         }
                         #lnkSifremiUnuttum{
@@ -84,12 +93,14 @@
                                     display: block;
                                     background: none;
                                     padding: 13px 5px 13px 5px;
-                                    background:#f05201;
+                                    background:#fff;
+                                    border:1px solid #DA1021;
+                                    color:$darkBlack;
                                     &:hover{
-                                        background: #D4500D;
+                                        background: #DA1021;
+                                        color:#fff;
                                     }
                                     span{
-                                        color: #fff;
                                         font-family: $bold;
                                         font-size: 15px;
                                         letter-spacing: .9px;
@@ -105,7 +116,7 @@
                             }
                         }
                         .btnKutuLogin{
-                            background: #fdde00;
+                            background: #DA1021;
                         }
                     }
                 }
@@ -142,42 +153,44 @@
     .mod-mini-login{
         &-body{
             .sub{
-                background: rgba(0,0,0,.4);
-                width: 630px;
-                padding:80px 20px 20px; 
+                background:$rgbBg;
+                width: 350px;
+                padding:30px 20px;
+                top:45px; 
                 .sub-title{
                     text-align: left;
                     font-size: 17px;
+                    color:$darkBlack;
                 }
                 .ems-form{
                     &-inner{
                     width: 100%;
-                    display: table;
+                    display: flex;
+                    flex-wrap: wrap;
                     .ems-form-left,
                     .seperator,
                     .ems-form-right{
                         display: table-cell;
                         vertical-align: top;
                     }
-                    .ems-form-left{width: 50%;}
-                    .seperator{width: 15%; padding-top: 15px;}
-                    .ems-form-right{width: 35%;}
+                    .ems-form-left{width: 100%;}
+                    .seperator{width: 100%; padding-top: 15px;}
+                    .ems-form-right{width: 100%;}
                         .ems-field {
                             display: table;
                             width: 100%;
                             .ems-form-label,
                             .ems-form-obj{display:table-cell; vertical-align: middle; padding-bottom: 15px;}
-                            .ems-form-label{min-width: inherit; float: inherit; color:#fff; font-size: 14px; width: 25%;}
+                            .ems-form-label{min-width: inherit; float: inherit; color:$darkBlack; font-size: 14px; width: 25%;}
                             .ems-form-obj{width: 75%; margin-bottom: 0; margin-left: 0;}
                             .btnKutuLogin{
-                                float: right;
                                 padding-top: 10px;
                                 padding-bottom: 10px;
                                 width: calc(100% - 25%);
-                                color: $darkBlack;
+                                color: #fff;
                             }
-                            #lnkSifremiUnuttum{width: calc(100% - 25%);float: right; padding-left: 0;}
-                            #lnkSifremiUnuttum span{color: #fff;}
+                            #lnkSifremiUnuttum{width: calc(100% - 25%);padding-left: 0;}
+                            #lnkSifremiUnuttum span{color: $darkBlack;}
                             &-submit{
                                 a.btnFacebookLoginKutu{
                                     margin-top: 15px;
@@ -200,7 +213,8 @@ body.mini-login-ready{
         }
         @media screen and (min-width: 850px){
             &-header{
-                background: rgba(0, 0, 0, 0.4);
+                background:none;
+                color:black;
             }
         }
     }
@@ -285,7 +299,7 @@ body.ems-login.mini-login-ready{
                                     padding-bottom: 17px;
                                 }
                             }
-                            .btnKutuLogin{color: $darkBlack;}
+                            .btnKutuLogin{color: #fff;}
                         }
                     }
                 }
