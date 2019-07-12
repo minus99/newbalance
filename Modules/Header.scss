@@ -156,7 +156,6 @@
                     z-index: 1;
                     i, i:before{
                         font-size: 20px;
-                        color: #000;
                     }
                     &:after{
                         @include transition(all 333ms ease);
@@ -175,8 +174,10 @@
                         }
                     }
                     &.icon-3{
+                        color:#fff !important;
                         &:after{
                             background:#DA1021;
+                            color:#fff !important;
                             transition-delay: .2s;
                         }
                     }

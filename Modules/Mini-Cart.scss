@@ -35,7 +35,7 @@
     }
     &-body{
         background:$rgbBg;
-        width: 350px;
+        width: 400px;
         position: absolute;
         right: 0;
         top:45px;
@@ -53,18 +53,27 @@
             }
             .wrapper{
                 padding: 80px 0 60px 0;
+                i{
+                    display:block;
+                    text-align: center;
+                    font-size:40px;
+                    margin-bottom:20px;
+                }
+                .cart-empty-btn{
+                    margin-top:20px;
+                }
             }
         }
         .ems-col{
             &-total{
                 margin-top: 20px;
                 padding: 20px 0;
-                border-top:1px solid #fff;
+                border-top:1px solid $darkBlack;
                 > span{
                     width: 50%;
                     display: inline-block;
                     vertical-align: top;
-                    color: #fff;
+                    color: $darkBlack;
                     font-family: $bold;
                     font-size: 18px;
                     s{ display: none; }
@@ -143,7 +152,7 @@
             > div{ 
                 float: left;
                 * {
-                    color: #fff;
+                    color: $darkBlack;
                 }
                 .cart-prd-remove{
                     position: absolute;
@@ -193,14 +202,14 @@
                 margin-right: 20px;
                 a {
                     display: inline-block;
-                    border: 1px solid #fff;
+                    border: 1px solid $ffYellowL;
                     padding: 7px;
                     span{ display: none; }
                     i, i:before{ font-size: 9px; }
                 }
                 span{
-                    border-top:1px solid #fff;
-                    border-bottom:1px solid #fff;
+                    border-top:1px solid $ffYellowL;
+                    border-bottom:1px solid $ffYellowL;
                     min-width:50px;
                     text-align:center;
                     padding:3px 3px 3px 3px;
@@ -257,3 +266,4 @@ body.mini-cart-ready{
         display: none !important;
     }
 }
+

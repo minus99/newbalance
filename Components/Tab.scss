@@ -85,12 +85,16 @@
                         }
                         .mod-cat-link{
                             position: absolute;
-                            bottom: 5%;
+                            bottom: 30px;
                             width: 90%;
                             left: 0;
                             right: 0;
                             margin: 0 auto;
                             text-align: center;
+                            .link-btn{
+                                border:2px solid $darkBlack;
+                                padding:10px 20px;
+                            }
                         }
                     }
                     &.selected{
