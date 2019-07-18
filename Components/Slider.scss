@@ -6,6 +6,11 @@
 }
 
 .main-slider{
+    &.no-controls{
+        .swiper-button-prev, .swiper-button-next{
+            display: none !important;
+        }
+    }
     &-default{
         .swiper-pagination { display:none; }
 
@@ -142,7 +147,8 @@
                 }
                 &-span, &-btn{
                     display: inline-block;
-                    background: $fdYellow;
+                    background: #fff;
+                    border:1px solid $lDark;
                     width: 100%;
                     max-width: 225px;
                     position: absolute;

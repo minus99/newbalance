@@ -67,10 +67,13 @@
             .current-rating { background-position: left bottom;}
 
         }
+        .yorumOrtalamaPuanAyrintili{
+            display: none !important;
+        }
         .yorumYap{ text-align: center; }
         a.btnYorumYap{
             background:$fdYellow;
-            color:$lDark;
+            color:#fff;
             max-width: 225px;
             margin-top: 50px;
         }
@@ -81,6 +84,7 @@
     }
 
     .yorumListe{
+        .yorumListeFiltered,
         .tableTitleYorumListe,
         .olumsuzYorumBaslik,
         .olumsuzYorumListe{display:none;}
@@ -163,7 +167,7 @@
             }
             a.btnYorumGonder{
                 background:$fdYellow;
-                color:$lDark;
+                color:#fff;
                 max-width: 325px;
                 margin-top: 50px;
             }
@@ -290,20 +294,20 @@
         .pageErrorDefault {
             text-align: center;
             a#lnkYorumYaz, a#lnkIlkYorum{
-                background: #fdde00;
-                color: #231f20;
+                background: #DA1021;
+                color: #fff;
                 margin-top: 30px;
                 padding: 16px 20px;
                 display: inline-block;
-                font-family: bold;
+                font-family: $bold;
                 font-size: 17px;
                 margin-bottom: 20px;
             }
             a#lnkIlkYorum{margin-bottom: 0;}
             a.btnLogin{
                 display: none;
-                background: #fdde00;
-                color: #231f20;
+                background: #DA1021;
+                color: #fff;
                 max-width: 225px;
                 margin-top: 50px;
             }

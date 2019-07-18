@@ -221,7 +221,7 @@
             ul{
                 li{
                     a{
-                        color: #fff;
+                        color: $lDark;
                         font-size: 15px;
                         display: block;
                         padding: 7px 5px;
@@ -365,11 +365,52 @@
     }
 }
 
+@media screen and (max-width: 850px){
+    .nav-main {
+        > ul{
+            > li{
+                &.new-sub-logo{
+                    display: none;
+                }
+            }
+        }
+    }    
+}
+
+@media screen and (min-width: 850px){
+    body.sticky-header{
+        &-ready{
+            .nav-main {
+                > ul {
+                    > li{
+                        &.new-sub-logo{
+                            width:90px;
+                            margin-right:20px;
+                            transition: all .5s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 /*Desktop animation controls*/
 @media screen and (min-width: 850px){
     .nav-main {
         > ul{
             > li{
+                &.new-sub-logo{
+                    width:0px;
+                    margin-right:0px;
+                    overflow: hidden;
+                    a{
+                        padding:0px !important;
+                        img{
+                            max-width:90px;
+                        }
+                    }
+                }
                 &.sub-menu{
                     .sub-nav-links{
                         > ul{
@@ -460,7 +501,8 @@
         &.mbMember{
             a{
                 i, i:before{
-                    font-size: 21px;
+                    font-size: 24px;
+                    font-weight: bold;
                 }
             }
         }
@@ -477,13 +519,12 @@
                 b{
                     color: #000;
                     position: absolute;
-                    top: -10px;
-                    right: -10px;
+                    top: 1.5px;
+                    left: 0px;
                     z-index: 1;
                     display: inline-block;
                     width: 25px;
                     height: 25px;
-                    background: #DA1021;
                     border-radius: 100%;
                     font-size: 13px;
                     line-height: 25px;
@@ -491,7 +532,8 @@
                 }
             }
             i, i:before{
-                font-size: 22px;
+                font-size: 25px;
+                font-weight: bold;
             }
         }
     }
@@ -669,7 +711,7 @@ body.ems-logoff{
 
 @media screen and (max-width: $breakpointXSM){
     .site-header{
-        min-height: 70px;
+        min-height: 120px;
         &-wrapper{
             position: inherit;
             z-index: inherit;
@@ -704,11 +746,17 @@ body.ems-logoff{
                 .ems-col-3{
                     position: fixed;
                     width: 100%;
-                    top: 0;
+                    top: 70px;
                     left: 0;
                     z-index: 9;
                     min-height: 50px;
                     @include transition(top 333ms ease);
+                    .mod-mini-search-body{
+                        input{
+                            border:none;
+                            border-radius: 0px;
+                        }
+                    }
                 }
             }
         }
@@ -931,4 +979,35 @@ body.ems-logoff{
             }
         }
     }
+}
+
+
+
+/* Mobile Menu seviye2 +- */
+.nav-main{
+    .sub-menu{
+        > .sub-nav{
+            .sub-nav-links{
+                .sub-item-true{
+                    position: relative;
+                    &:after{
+                        font-family: 'icomoon';
+                        font-size:8px;
+                        content: '\e914';
+                        position: absolute;
+                        right: 10px;
+                        top: 10px;
+                        pointer-events: none;
+                    }
+                    &.selected{
+                        &:after{
+                            content:'\e910';
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+
 }

@@ -1,3 +1,10 @@
+@media screen and (min-width: 850px){
+    .ems-prd-detail-inner .inner-row-2{
+        position: sticky;
+        top: 120px;
+    }
+}
+
 .ems-page{
     &-detail {
         padding-top:10px;

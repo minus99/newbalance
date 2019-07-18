@@ -1,7 +1,7 @@
 .site-footer{
-    background-color: $lDark;
+    background-color: #000;
     &-cover{
-        background-image:url(#{$baseHref + "/UPLOAD//BANNERS/covers/footer-cover.jpg"});
+        //background-image:url(#{$baseHref + "/UPLOAD//BANNERS/covers/footer-cover.jpg"});
         background-size: cover;
         background-position: center top;
         background-repeat: no-repeat;
@@ -10,7 +10,8 @@
         padding: 40px 0 40px 0;
         &:after{
             content:'';
-            background-image: linear-gradient(to bottom, rgba(35, 31, 32, 0.1), #231f20);
+            //background-image: linear-gradient(to bottom, rgba(35, 31, 32, 0.1), #231f20);
+            background: #000;
             position: absolute;
             bottom: 0;
             left: 0;
@@ -36,7 +37,7 @@
             width: 55%;
         }
         .ems-col-2{
-            vertical-align: bottom;
+            vertical-align: top;
             width: 45%;
         }
     }
@@ -96,8 +97,10 @@
                 text-align: center;
                 a{
                     display: inline-block;
-                    padding: 5px 0;
                     text-align: center;
+                    border:2px solid #ffff;
+                    border-radius: 100%;
+                    padding:8px;
                     i{
                         display: block;
                         font-size: 23px;
@@ -113,7 +116,7 @@
     }
     &-content{ display: none; }
     &-bottom{
-        background-color: $darkBlack;
+        background-color: #000;
     }
     &-dark-cover{
         max-width: 980px;
@@ -128,13 +131,13 @@
         }
     }
     &-copyright{
-        background-color: $lDark;
+        background-color: #000;
         text-align: center;
         padding: 40px 120px 40px 120px;
         position: relative;
         &:after{
             content:''; 
-            background-image:url(#{$baseHref + "/images/frontend/footer-vepagroup-logo.png"});
+            //background-image:url(#{$baseHref + "/images/frontend/footer-vepagroup-logo.png"});
             position: absolute;
             top: -23px;
             right: 0;

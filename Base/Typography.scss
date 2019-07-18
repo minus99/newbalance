@@ -1,4 +1,10 @@
-@include fontFace('regular', '/styles/fonts/roboto/regular/roboto-regular', normal);
+/*@include fontFace('regular', '/styles/fonts/roboto/regular/roboto-regular', normal);
 @include fontFace('medium', '/styles/fonts/roboto/medium/roboto-medium', normal);
 @include fontFace('bold', '/styles/fonts/roboto/bold/robotocondensed-bold-webfont', normal);
+@include fontFace('tl', '/styles/fonts/tl/abakutlsymsans', normal);
+*/
+
+@include fontFace('bold', '/styles/fonts/gotham/Gotham-Black', normal);
+@include fontFace('regular', '/styles/fonts/gotham/Gotham-Medium', normal);
+@include fontFace('medium', '/styles/fonts/gotham/Gotham-Book', normal);
 @include fontFace('tl', '/styles/fonts/tl/abakutlsymsans', normal);

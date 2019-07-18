@@ -43,6 +43,7 @@
                                     font-size: 13px;
                                     &:hover{
                                         background: $fdYellow;
+                                        color:#fff;
                                     }
                                     &.link_selected{
                                         background: $lDark;
@@ -202,12 +203,12 @@
         .urunKiyaslamaOzellik_ozellik ::-webkit-scrollbar-thumb{
             -webkit-border-radius: 3px;
             border-radius: 3px;
-            background: rgba(253,222,0,0.9);
+            background: #DA1021;
             -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
             box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
         }
         .urunKiyaslamaOzellik_ozellik ::-webkit-scrollbar-thumb:window-inactive{
-            background: rgba(253,222,0,1); 
+            background: #DA1021; 
         }
     }
 }

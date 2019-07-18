@@ -12,6 +12,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-new-cart:before {
+  content: "\e925";
+}
+.icon-new-user:before {
+  content: "\e924";
+}
 .icon-ico_vepa:before { 
   content: "\e923";
 }

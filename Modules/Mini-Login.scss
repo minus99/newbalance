@@ -1,3 +1,11 @@
+.ems-login{
+    .mod-mini-login{
+        &-header{
+            padding:8px 20px;
+        }
+    }
+}
+
 .mod-mini-login{
     &-header{
         cursor: pointer;
@@ -5,7 +13,7 @@
         font-family: $bold;
         font-size: 13px;
         letter-spacing: .9px;
-        padding: 8px 20px;
+        padding: 0px 20px;
         min-width: 125px;
         text-align: center;
         min-height: 30px;
@@ -14,9 +22,8 @@
             display: flex;
             align-items: center;
             i{
-                font-size:20px;
+                font-size:30px;
                 margin-right:5px;
-                font-weight: bold;
             }
         }
         > span[id$="lbhKUTU_HESABIM"]{
@@ -130,7 +137,7 @@
             }
             .ems-user-pages{
                 > div * {
-                    color: #fff;
+                    color:$darkBlack;
                     font-size: 15px;
                 }
                 > div {
@@ -313,7 +320,7 @@ body.ems-login.mini-login-ready{
                     position: relative;
                     display: block;
                     font-size: 17px;
-                    font-family: bold;
+                    font-family: $bold;
                     padding: 26px 50px;
                     background: $darkBlack;
                     color: #fff;
