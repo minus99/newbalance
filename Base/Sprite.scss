@@ -12,6 +12,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+.icon-new-map:before {
+  content: "\e926";
+}
 .icon-new-cart:before {
   content: "\e925";
 }

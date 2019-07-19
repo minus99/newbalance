@@ -820,13 +820,17 @@ ul.emosInfinite {
 }
 
 .product-empty, .page-empty{
-    background:url(#{$baseHref + "/upload/banners/covers/page-404-cover.jpg"}) top left no-repeat;
+    //background:url(#{$baseHref + "/upload/banners/covers/page-404-cover.jpg"}) top left no-repeat;
     padding-top: 50px;
     background-size: cover;
     min-height: 50vh;
     > .ems-container{
         background: #fff;
         padding: 50px 40px;
+        .nb-rooster{
+            max-width: 300px;
+            margin: 20px auto;
+        }
         > div{
             text-align: center;
             h1, h2{

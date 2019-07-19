@@ -402,7 +402,8 @@
             top: 0;
             left: 0;
             z-index: 2;
-            background:url(#{$baseHref + "/images/ajaxtabs/pageLoading.gif"}) center center no-repeat #fff;
+            background:url(#{$baseHref + "/images/frontend/nblogo.png"}) center center no-repeat #fff;
+            background-size:200px;
             video{
                 @include setTransform(translate(-50%,-50%));
                 position: absolute;
