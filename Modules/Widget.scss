@@ -6,6 +6,9 @@
     &.visilabs-widget{
         .swiper-pagination{ display:none; }
     }
+    .swiper-pagination{
+        display: none;
+    }
     .swiper-title{
         h2{
             font-size: 30px;
@@ -115,7 +118,7 @@
         &.widget-new-shoes, &.widget-clothing  {
             .swiper-inner {
                 .swiper-wrapper {
-                    display: inline-block;
+                    display: flex;
                 }
             }
         }
