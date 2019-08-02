@@ -654,6 +654,13 @@ ul.emosInfinite {
                             color: $lDark;
                         }
                     }
+                    &.activeted{
+                           .swiper-inner{
+                               ul{
+                                   justify-content: flex-start;
+                               }
+                           }
+                    }
                 }
             }
         }
