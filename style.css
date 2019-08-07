@@ -10629,11 +10629,11 @@ body.ems-logoff .site-header .mobile-element-fixed-user div a.login {
   .site-header .ems-container-full-bottom .ems-col-2 {
     width: calc(100% - 360px); }
   .site-header .ems-container-full-bottom .ems-col-3 {
-    width: 180px; }
+    width: 340px; }
   body.sticky-header-animate .site-header .ems-container-full-bottom .ems-col-2 {
     width: calc(100% - 360px); }
   body.sticky-header-animate .site-header .ems-container-full-bottom .ems-col-3 {
-    width: 180px; }
+    width: 340px; }
   .nav-main > ul {
     padding-right: 0;
     padding-left: 0; }
@@ -11456,7 +11456,7 @@ body.ems-logoff .site-header .mobile-element-fixed-user div a.login {
         -o-transition: width .5s;
         transition: width .5s; }
       .ems-pay-info .step p:hover::after {
-        width: 200px; }
+        width: 100%; }
 
 .ems-popular-categories {
   background: #f9f9f9;
@@ -14606,7 +14606,7 @@ body.ems-login.mini-login-ready .mod-mini-login-body .sub.login {
 .ems-page-discount-list {
   display: none; }
   .ems-page-discount-list > .ems-container-full {
-    max-width: 1400px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto; }
 
@@ -14625,7 +14625,7 @@ body.ems-page-active-discount-list .ems-page-list-discount {
     padding-left: 20px;
     padding-right: 20px; }
   .page-product-list-layout .nav-main > ul {
-    max-width: 1200px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto; }
   .ems-page-list > .ems-container-full {
@@ -14737,7 +14737,6 @@ body.ems-page-active-discount-list .ems-page-list-discount {
   position: absolute;
   left: 0;
   width: 100%;
-  bottom: 0;
   background: #231f20; }
   .ems-prd-list-paging-bottom table tbody tr td {
     width: auto; }
