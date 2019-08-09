@@ -10648,7 +10648,7 @@ body.ems-logoff .site-header .mobile-element-fixed-user div a.login {
   .site-header .ems-container-full-bottom .ems-col-2 {
     width: calc(100% - 240px); }
   .site-header .ems-container-full-bottom .ems-col-3 {
-    width: 120px; }
+    width: 220px; }
   .site-header .mobile-element-fixed-user {
     width: 120px; }
     .site-header .mobile-element-fixed-user div {
@@ -10659,7 +10659,7 @@ body.ems-logoff .site-header .mobile-element-fixed-user div a.login {
   body.sticky-header-animate .site-header .ems-container-full-bottom .ems-col-2 {
     width: calc(100% - 240px); }
   body.sticky-header-animate .site-header .ems-container-full-bottom .ems-col-3 {
-    width: 120px; } }
+    width: 240px; } }
 
 @media screen and (max-width: 850px) {
   .site-header {

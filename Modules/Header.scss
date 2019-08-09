@@ -699,7 +699,7 @@ body.ems-logoff{
             &-bottom{
                 .ems-col-1{width:120px;}
                 .ems-col-2{width:calc(100% - 240px);}
-                .ems-col-3{width:120px;}
+                .ems-col-3{width:220px;}
             }
         }
         .mobile-element-fixed-user{
@@ -718,7 +718,7 @@ body.ems-logoff{
             .site-header .ems-container-full{
                 &-bottom {
                     .ems-col-2{width: calc(100% - 240px);}
-                    .ems-col-3{width:120px;}
+                    .ems-col-3{width:240px;}
                 }
             }
         }
