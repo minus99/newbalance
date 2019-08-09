@@ -10605,7 +10605,7 @@ body.main-menu-ready .vailMenu {
   .site-header .ems-container-full-bottom .ems-col-2 {
     width: calc(100% - 400px); }
   .site-header .ems-container-full-bottom .ems-col-3 {
-    width: 200px; }
+    width: 380px; }
   .site-header .ems-container-full .nav-main > ul > li > a {
     letter-spacing: 0.5px; }
   body.sticky-header-animate .site-header .ems-container-full-bottom .ems-col-2 {
@@ -13064,7 +13064,7 @@ body.mini-cart-ready .vailCart {
       font-size: 30px;
       margin-right: 5px; }
   .mod-mini-login-header > span[id$="lbhKUTU_HESABIM"] {
-    max-width: 130px;
+    max-width: 210px;
     -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
     white-space: nowrap;
