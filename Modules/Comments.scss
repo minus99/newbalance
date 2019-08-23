@@ -377,3 +377,21 @@
         }
     }
 }
+
+
+/* Ürün Liste Yorum */
+.emosInfinite{
+    .ems-prd{
+        .ems-prd-comment{
+            width: 75px;
+            margin-left: 50%;
+            transform: translateX(-50%);        
+            .urunListe_yorumSayi{
+                display: none;
+            }
+            span[id$="lblURUNYORUM_ORTALAMAPUAN"]{
+                display: none;
+            }
+        }
+    }
+}

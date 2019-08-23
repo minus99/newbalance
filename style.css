@@ -9629,6 +9629,18 @@ a.load-more-btn > span {
       right: 0;
       margin: 0 auto; } }
 
+/* Ürün Liste Yorum */
+.emosInfinite .ems-prd .ems-prd-comment {
+  width: 75px;
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%); }
+  .emosInfinite .ems-prd .ems-prd-comment .urunListe_yorumSayi {
+    display: none; }
+  .emosInfinite .ems-prd .ems-prd-comment span[id$="lblURUNYORUM_ORTALAMAPUAN"] {
+    display: none; }
+
 .kutuKurDegis {
   position: relative;
   display: none !important; }
