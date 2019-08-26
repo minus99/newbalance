@@ -1383,6 +1383,7 @@
                 .ems-prd-name-wrapper{
                     display: flex;
                     .ems-prd-name{
+                        width:100%;
                         h1{
                             font-size:15px;
                             margin:10px;
@@ -1403,6 +1404,9 @@
                         display: flex;
                         width:100%;
                         justify-content: center;
+                        .ems-prd-discount-rate{
+                            display: none;
+                        }
                     }
                 }
                 .ems-prd-group{
