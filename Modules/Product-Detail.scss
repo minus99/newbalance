@@ -1364,3 +1364,78 @@
     }
     
 }
+
+@media screen and (min-width: 850px){
+
+    .ems-sticky-cart-button{
+        .inner-row-2{
+            position: fixed;
+            right:0px;
+            top:71px;
+            z-index: 999;
+            background: #fff;
+            width:310px;
+            padding:20px;
+            &-holder{
+                > div{
+                    display: none;
+                }
+                .ems-prd-name-wrapper{
+                    display: flex;
+                    .ems-prd-name{
+                        h1{
+                            font-size:15px;
+                            margin:10px;
+                            width:100%;
+                            text-align: center;
+                        }
+                    }
+                    .ems-prd-sort-desc{
+                        display: none;
+                    }
+                }
+                .ems-prd-price{
+                    display: flex;
+                    &-right{
+                        display: none;
+                    }
+                    &-left{
+                        display: flex;
+                        width:100%;
+                        justify-content: center;
+                    }
+                }
+                .ems-prd-group{
+                    display: flex;
+                    .listeUrunDetayGrup_listeBaslik{
+                        display: none;
+                    }
+                }
+                .ems-prd-flex-controller{
+                    display: flex;
+                    .ems-prd-size-chart{
+                        display: none;
+                    }
+                    .ems-prd-size{
+                        padding-left:10px;
+                        .urunSecenek_baslik1{
+                            display: none !important;
+                        }
+                    }
+                }
+                .ems-prd-add-to-cart{
+                    display:flex !important;
+                    &-inner{
+                        width:100%;
+                        padding-right:0px;
+                        margin-top:0px;
+                    }
+                    .ems-prd-add-to-cart-favorites{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+}

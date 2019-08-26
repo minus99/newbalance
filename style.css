@@ -14553,6 +14553,69 @@ body.ems-login.mini-login-ready .mod-mini-login-body .sub.login {
   body.sticky-header-ready .ems-prd-detail .ems-prd-add-to-cart-inner {
     bottom: 0; } }
 
+@media screen and (min-width: 850px) {
+  .ems-sticky-cart-button .inner-row-2 {
+    position: fixed;
+    right: 0px;
+    top: 71px;
+    z-index: 999;
+    background: #fff;
+    width: 310px;
+    padding: 20px; }
+    .ems-sticky-cart-button .inner-row-2-holder > div {
+      display: none; }
+    .ems-sticky-cart-button .inner-row-2-holder .ems-prd-name-wrapper {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .ems-sticky-cart-button .inner-row-2-holder .ems-prd-name-wrapper .ems-prd-name h1 {
+        font-size: 15px;
+        margin: 10px;
+        width: 100%;
+        text-align: center; }
+      .ems-sticky-cart-button .inner-row-2-holder .ems-prd-name-wrapper .ems-prd-sort-desc {
+        display: none; }
+    .ems-sticky-cart-button .inner-row-2-holder .ems-prd-price {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .ems-sticky-cart-button .inner-row-2-holder .ems-prd-price-right {
+        display: none; }
+      .ems-sticky-cart-button .inner-row-2-holder .ems-prd-price-left {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+    .ems-sticky-cart-button .inner-row-2-holder .ems-prd-group {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .ems-sticky-cart-button .inner-row-2-holder .ems-prd-group .listeUrunDetayGrup_listeBaslik {
+        display: none; }
+    .ems-sticky-cart-button .inner-row-2-holder .ems-prd-flex-controller {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .ems-sticky-cart-button .inner-row-2-holder .ems-prd-flex-controller .ems-prd-size-chart {
+        display: none; }
+      .ems-sticky-cart-button .inner-row-2-holder .ems-prd-flex-controller .ems-prd-size {
+        padding-left: 10px; }
+        .ems-sticky-cart-button .inner-row-2-holder .ems-prd-flex-controller .ems-prd-size .urunSecenek_baslik1 {
+          display: none !important; }
+    .ems-sticky-cart-button .inner-row-2-holder .ems-prd-add-to-cart {
+      display: -webkit-box !important;
+      display: -ms-flexbox !important;
+      display: flex !important; }
+      .ems-sticky-cart-button .inner-row-2-holder .ems-prd-add-to-cart-inner {
+        width: 100%;
+        padding-right: 0px;
+        margin-top: 0px; }
+      .ems-sticky-cart-button .inner-row-2-holder .ems-prd-add-to-cart .ems-prd-add-to-cart-favorites {
+        display: none; } }
+
 .ems-page-list {
   padding-bottom: 130px;
   position: relative; }
