@@ -11841,6 +11841,71 @@ body.ems-logoff .site-header .mobile-element-fixed-user div a.login {
   .main-slider-container-small {
     margin-top: 20px; } }
 
+/* Homepage Buton Area */
+.buttons-banner-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0px 15px;
+  margin: 15px 0px; }
+  .buttons-banner-wrapper .banner-item {
+    width: 49%;
+    margin-bottom: 15px; }
+    .buttons-banner-wrapper .banner-item-top .banner-item-img {
+      width: 100%;
+      background-size: cover;
+      background-repeat: no-repeat; }
+    .buttons-banner-wrapper .banner-item-bottom {
+      border: 1px solid #ddd;
+      border-top: none;
+      border-radius: 3px;
+      padding: 25px 0px;
+      text-align: center;
+      min-height: 162px; }
+      .buttons-banner-wrapper .banner-item-bottom > div {
+        display: block; }
+      .buttons-banner-wrapper .banner-item-bottom .banner-item-title span {
+        font-size: 23px; }
+      .buttons-banner-wrapper .banner-item-bottom .banner-item-desc p {
+        font-weight: 100;
+        font-size: 12px; }
+      .buttons-banner-wrapper .banner-item-bottom .banner-item-buttons {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+        justify-content: space-evenly;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-top: 10px; }
+        .buttons-banner-wrapper .banner-item-bottom .banner-item-buttons a {
+          border: 1px solid #ddd;
+          border-radius: 3px;
+          padding: 10px;
+          max-width: 33%;
+          text-align: center;
+          text-transform: uppercase;
+          font-weight: 100;
+          color: red;
+          -webkit-transition: all .4s;
+          -o-transition: all .4s;
+          transition: all .4s; }
+          .buttons-banner-wrapper .banner-item-bottom .banner-item-buttons a:hover {
+            text-decoration: underline; }
+          .buttons-banner-wrapper .banner-item-bottom .banner-item-buttons a::after {
+            content: "\e920";
+            font-family: icomoon;
+            display: inline-block;
+            -webkit-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+            transform: rotate(180deg); }
+
 .mod-lang {
   position: relative;
   display: none !important; }
