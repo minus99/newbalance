@@ -737,12 +737,12 @@
                     display: block;
                     text-align: left;
                     font-family: $regular;
-                    font-size: 13px;
+                    font-size: 12px;
                     color: $lGray;
                     font-weight: normal;
                     padding-top: 10px;
                     padding-left: 0px;
-                    padding-right: 10px;
+                    padding-right: 5px;
                     width: 140px;
                     float: left;
                 }
@@ -1003,18 +1003,21 @@
              
             .order-sip-clone{
                 .ems-cart-summary{
+                    display:flex;
+                    justify-content: flex-end;
                     > table{
                         display: block !important;
                         margin-bottom: 20px;
-                        width: 295px;
-                        margin-left: calc(100% - 295px);
+                        max-width: 300px;
+                        width:100%;
+                        margin-left: 30px;
                         font-weight: 600;
                         @media screen and (max-width: $breakpointXSM){
                             width: 100% !important;
                             margin-left: 0 !important;
                         }
                         th{
-                            width: 100%;
+                            width: 70.5%;
                             line-height: 26px;
                         }
                         th:nth-child(1) > span{
@@ -1743,4 +1746,13 @@
         }
     }    
     .sip-sonuc-3d .ems-page-cart .bottom-step a.btnDefault[id$=btnSiparisSonuc] {width: 50%; left: 0;}
+
+    .ems-cart-agreement { 
+             
+        .order-sip-clone{
+            .ems-cart-summary{
+                justify-content: flex-start !important;
+            }
+        }
+    }
 }

@@ -8291,12 +8291,12 @@ a.load-more-btn > span {
           display: block;
           text-align: left;
           font-family: "regular";
-          font-size: 13px;
+          font-size: 12px;
           color: #727272;
           font-weight: normal;
           padding-top: 10px;
           padding-left: 0px;
-          padding-right: 10px;
+          padding-right: 5px;
           width: 140px;
           float: left; }
         .ems-page-cart .ems-page-order-payment .ems-cart-pay-type .tableOdemeBilgiKrediKarti th:empty {
@@ -8501,23 +8501,31 @@ a.load-more-btn > span {
               background: #DA1021; }
               .ems-page-cart .ems-page-order-payment .ems-cart-pay-type .tableOdemeBilgiHavale .tableOdemeBilgiHavale_tddrpBNK_KOD_HV .link > a.emos_selected span {
                 color: #1a1718; }
-    .ems-page-cart .ems-page-order-payment .ems-cart-agreement .order-sip-clone .ems-cart-summary > table {
-      display: block !important;
-      margin-bottom: 20px;
-      width: 295px;
-      margin-left: calc(100% - 295px);
-      font-weight: 600; }
-      @media screen and (max-width: 850px) {
-        .ems-page-cart .ems-page-order-payment .ems-cart-agreement .order-sip-clone .ems-cart-summary > table {
-          width: 100% !important;
-          margin-left: 0 !important; } }
-      .ems-page-cart .ems-page-order-payment .ems-cart-agreement .order-sip-clone .ems-cart-summary > table th {
+    .ems-page-cart .ems-page-order-payment .ems-cart-agreement .order-sip-clone .ems-cart-summary {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
+      justify-content: flex-end; }
+      .ems-page-cart .ems-page-order-payment .ems-cart-agreement .order-sip-clone .ems-cart-summary > table {
+        display: block !important;
+        margin-bottom: 20px;
+        max-width: 300px;
         width: 100%;
-        line-height: 26px; }
-      .ems-page-cart .ems-page-order-payment .ems-cart-agreement .order-sip-clone .ems-cart-summary > table th:nth-child(1) > span {
-        float: left; }
-      .ems-page-cart .ems-page-order-payment .ems-cart-agreement .order-sip-clone .ems-cart-summary > table th:nth-child(2) > span {
-        float: right; }
+        margin-left: 30px;
+        font-weight: 600; }
+        @media screen and (max-width: 850px) {
+          .ems-page-cart .ems-page-order-payment .ems-cart-agreement .order-sip-clone .ems-cart-summary > table {
+            width: 100% !important;
+            margin-left: 0 !important; } }
+        .ems-page-cart .ems-page-order-payment .ems-cart-agreement .order-sip-clone .ems-cart-summary > table th {
+          width: 70.5%;
+          line-height: 26px; }
+        .ems-page-cart .ems-page-order-payment .ems-cart-agreement .order-sip-clone .ems-cart-summary > table th:nth-child(1) > span {
+          float: left; }
+        .ems-page-cart .ems-page-order-payment .ems-cart-agreement .order-sip-clone .ems-cart-summary > table th:nth-child(2) > span {
+          float: right; }
     .ems-page-cart .ems-page-order-payment .ems-cart-agreement .agreement {
       width: calc(100% - 295px);
       float: left; }
@@ -9035,7 +9043,11 @@ a.load-more-btn > span {
         padding: 0px !important; }
   .sip-sonuc-3d .ems-page-cart .bottom-step a.btnDefault[id$=btnSiparisSonuc] {
     width: 50%;
-    left: 0; } }
+    left: 0; }
+  .ems-cart-agreement .order-sip-clone .ems-cart-summary {
+    -webkit-box-pack: start !important;
+    -ms-flex-pack: start !important;
+    justify-content: flex-start !important; } }
 
 .kutuKategori .kutuHeaderKategori > span a {
   color: #231f20;
